@@ -1,6 +1,6 @@
 @font-face {
   font-family: Borda;
-  src: url("FontFiles/The.Northern.Block.Ltd_Borda.otf");
+  src: url("../FontFiles/The.Northern.Block.Ltd_Borda.otf");
 }
 navbar{
   position: fixed;
