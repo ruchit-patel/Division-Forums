@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Borda;
+  src: url("FontFiles/The.Northern.Block.Ltd_Borda.otf");
+}
+navbar{
+  position: fixed;
+  z-index: -1;
+  background-color: #2b2b2b;
+  width: 100%;
+  top:0px;
+  left:0px;
+  font-family: Borda;
+}
+#navbtns{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+  border-left:2px solid #ffffff;
+}
+
+li a {
+    display: block;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #ffffff;
+    color: #ff8f00;
+}
+li:last-child {
+    border-left: none;
+}
+.active {
+    background-color: #ff8f00;
+    color: #ffffff;
+}
