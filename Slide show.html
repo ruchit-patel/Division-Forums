@@ -3,13 +3,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Cycle2 YouTube</title>
+<title>Slide Show</title>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <style>
-.cycle-slideshow { max-width: 640px; margin: auto }
+.cycle-slideshow { max-width: 1000px; margin: auto }
 .cycle-slideshow > div { width: 100%; height: 100% }
 .cycle-slideshow > img { width: 100%; height: 100% }
 .cycle-slideshow > video { width: 100%; height: 100% }
@@ -22,9 +22,9 @@ iframe,object,embed { width: 100%; height: 100% }
 
 <div id="main">
 
-
-<h2>Videos and Images</h2>
-
+<center>
+<h2>Videos and Images Slide show</h2>
+</center>
 <div class="cycle-slideshow"
    data-cycle-fx="scrollHorz"
    data-cycle-timeout="0"
@@ -38,21 +38,21 @@ iframe,object,embed { width: 100%; height: 100% }
     data-cycle-youtube-autostart=true
     >
 
-    <img src="http://jquery.malsup.com/cycle2/images/p1.jpg">
+    <img src="images/slide1.jpg">
 
-    <a href="http://www.youtube.com/v/f7AU2Ozu8eo?version=3&amp;hl=en_US&amp;rel=0">Paul Irish</a>
+    <a href="http://www.youtube.com/v/NjqKMhx1k5w?version=4&amp;hl=en_US&amp;rel=0">Division Trailer</a>
 
-    <img src="http://jquery.malsup.com/cycle2/images/p2.jpg">
+    <img src="images/slide2.jpeg">
 
-    <a href="http://www.youtube.com/v/seX7jYI96GE?version=3&amp;hl=en_US&amp;rel=0">Alex Russel</a>
+    <a href="http://www.youtube.com/v/qW9fdki5k1s?version=3&amp;hl=en_US&amp;rel=0">Division Game play</a>
 
-    <a href="http://www.youtube.com/v/seX7jYI96GE?version=3&amp;hl=en_US&amp;rel=0">Alex Russel</a>
-
+    <img src="images/slide3.jpg">
 </div>
 <div class=center>
-    <a href=# id=prev2>&lt;&lt;Prev </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href=# id=next2> Next&gt;&gt;</a>
+  <button class="w3-button w3-black w3-display-left" style="margin-top:-70px;" id=prev2><h3 style="color: #ff8f00;">&#10094;<h3></button>
+  <button class="w3-button w3-black w3-display-right" style="margin-top:-70px;" id=next2><h3 style="color: #ff8f00;">&#10095;<h3></button>
 </div>
+
 
 
 </div> <!-- #main -->
