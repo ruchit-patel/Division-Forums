@@ -13,7 +13,7 @@
       die("Connection failed: " . mysqli_connect_error());
   }
 
-  $sql = "INSERT INTO Talents values(Name,Category,Description) VALUES ('$nm','$cat','$des')";
+  $sql = "INSERT INTO Talents values ('$nm','$cat','$des')";
 
   if (mysqli_query($conn, $sql)) {
       echo "New record created successfully";
@@ -23,5 +23,5 @@
   }
 
   mysqli_close($conn);
-  
+
 ?>
