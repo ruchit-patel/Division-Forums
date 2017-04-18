@@ -17,7 +17,7 @@
 
   if (mysqli_query($conn, $sql)) {
       echo "New record created successfully";
-       header("location: main.html");
+       header("location: main2.php");
   } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
