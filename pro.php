@@ -1,5 +1,5 @@
 <?php
-if($_SERVER['REQUEST_METHOD']=="POST"){
+
   $nm=$_POST['name'];
   $cat=$_POST['category'];
   $des=$_POST['des'];
@@ -23,5 +23,5 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
   }
 
   mysqli_close($conn);
-  }
+  
 ?>
