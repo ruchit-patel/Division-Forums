@@ -2,9 +2,10 @@
 <head><title>Insert</title></head>
   <body>
 <form action="pro2.php" method="post">
-  Name:<input type="text" name="name" required><br><br>
-  Category: <input type="text" name="category" required><br><br>
-  Description:<input type="text" name="des" required><br><br>
+  <!-- Name:<input type="text" name="name" required><br><br> -->
+  Description: <input type="text" name="desc" required><br><br>
+  Modifications:<input type="text" name="mods" required><br><br>
+  Skill_id : <input type="text" name="skill_id" required><br><br>
   <input type="submit">
 </form>
   </body>

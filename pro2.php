@@ -1,8 +1,9 @@
 <?php
 
-  $nm=$_POST['name'];
-  $cat=$_POST['category'];
-  $des=$_POST['des'];
+  // $nm=$_POST['name'];
+  $desc=$_POST['desc'];
+  $mods=$_POST['mods'];
+  $skill_id=$_POST['skill_id']
   $servername = "localhost";
   $username = "root";
   $password = "admin";
@@ -13,7 +14,7 @@
       die("Connection failed: " . mysqli_connect_error());
   }
 
-  $sql = "INSERT INTO Perks values ('$nm','$cat','$des')";
+  $sql = "INSERT INTO Medical(Description,Modification,Skill_id) values ('$desc','$mods','$skill_id')";
 
   if (mysqli_query($conn, $sql)) {
       echo "New record created successfully";
