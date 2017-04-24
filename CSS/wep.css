@@ -1,5 +1,10 @@
-body{
-    background: url("../Images/wepBg.jpg");
+@font-face {
+  font-family: Borda;
+  src: url("../FontFiles/The.Northern.Block.Ltd_Borda.otf");
+}
+@font-face {
+  font-family: Borda-Bold;
+  src: url("../FontFiles/The.Northern.Block.Ltd_Borda.Bold.otf");
 }
 /*Card CSS */
 .card {
@@ -8,6 +13,7 @@ body{
     transition: 0.3s;
     text-align: Justify;
     border-radius: 0px;
+    background-color: #ffffff;
 }
 /* On mouse-over, add a deeper shadow */
 .card:hover {
@@ -16,17 +22,23 @@ body{
 
 .card-block {
     padding: 10px;
+    font-family: Borda;
+    font-size: 18;
 }
 .parallax1 {
     /* The image used */
-    background-image: url('background5.png');
+    background-image: url('../Images/wepBg.jpg');
 	/* Full height */
-	height: 80%;
+	height: 100%;
 	font-family: 'Cantarell', sans-serif;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 0px;
+	padding: 20px;
+}
+.crd-h1{
+    font-family: Borda-Bold;
+    font-size: 32;
 }

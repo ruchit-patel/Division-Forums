@@ -7,9 +7,23 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="CSS\wep.css">
     </head>
-    <body>
-        <div class="">
-
+    <body class="parallax1">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">M249-B</p>
+                            The M249 B is an Light Machine Gun in Tom Clancy's The Division. It's large magazine size makes it a good weapon for finishing of enemies without having to go into cover and reload. However it has, like most LMGs, low Stability. The first few shots will send your aim skyward. Grips and Barrel mods are recommended.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images\WepImgs\M249-B.jpg" style="width:100%;">
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
