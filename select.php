@@ -23,6 +23,7 @@
             <div class="dropdown"><form action="insafter.php" method="get">
 
                     <select  id="sel1" name="table">
+                      <option selected disabled>Choose here</option>
                       <?php
                       include 'tabinfo.php';
                       ?>
