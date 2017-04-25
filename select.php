@@ -21,12 +21,14 @@
           <center><p class="crd-h1">Select The name of the table</p></center>
           <div class="container">
             <div class="dropdown"><form action="insafter.php" method="get">
+              <div class="form-group">
+                    <label for="sel1">Select list (select one):</label>
                     <select class="form-control" id="sel1">
                       <?php
                       include 'tabinfo.php';
                       ?>
                         </select>
-                <input type="submit"></form>
+                <input type="submit"></form></div>
             </div>
         </div>
       </div>
