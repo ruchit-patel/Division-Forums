@@ -10,9 +10,7 @@
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
             }
-            if(){
-                
-            }
+            
         ?>
         <form method="post">
             Wep ID: <input type="text" name="wid"><br>
