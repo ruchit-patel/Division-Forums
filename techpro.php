@@ -16,7 +16,7 @@ if (!$conn) {
 
   if (mysqli_query($conn, $sql)) {
       echo "New record created successfully";
-       header("location: medtechsec.html");
+       header("location: insafter.php");
   } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
