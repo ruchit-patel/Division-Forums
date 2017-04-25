@@ -21,8 +21,14 @@
           <center><p class="crd-h1">Select The name of the table</p></center>
           <div class="container">
             <div class="dropdown"><form action="insafter.php" method="get">
+<<<<<<< Updated upstream
 
                     <select  id="sel1" name="table">
+=======
+          <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">Select Table
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+>>>>>>> Stashed changes
                       <?php
                       include 'tabinfo.php';
                       ?>
