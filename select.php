@@ -21,14 +21,11 @@
           <center><p class="crd-h1">Select The name of the table</p></center>
           <div class="container">
             <div class="dropdown"><form action="insafter.php" method="get">
-          <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">Select Table
-                  <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
+                    <select class="form-control" id="sel1">
                       <?php
                       include 'tabinfo.php';
                       ?>
-                    </ul>
-                </div>
+                        </select>
                 <input type="submit"></form>
             </div>
         </div>
