@@ -20,14 +20,16 @@
         <div class="card-block">
           <center><p class="crd-h1">Select The name of the table</p></center>
           <div class="container">
-            <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+            <div class="dropdown"><form action="insafter.php" method="get">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Table
                   <span class="caret"></span></button>
                     <ul class="dropdown-menu">
-                      <li><a href="#">HTML</a></li>
-                      <li><a href="#">CSS</a></li>
+                      <?php
+                      include 'tabinfo.php';
+                      ?>
                     </ul>
                 </div>
+                <input type="submit"></form>
             </div>
         </div>
       </div>
