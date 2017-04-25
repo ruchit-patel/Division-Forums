@@ -20,7 +20,7 @@
         <div class="card-block">
           <center><p class="crd-h1">Select The name of the table</p></center>
           <div class="container">
-            <div class="dropdown"><form action="select.php" method="get">
+            <div class="dropdown"><form action="insafter.php" method="get">
 
                     <select  id="sel1" name="table">
                       <?php
@@ -28,13 +28,7 @@
                       ?>
                     </select><br><br>
                 <input type="submit"></form>
-                <?php
-                  if($_SERVER['REQUEST_METHOD']=="GET"){
-                    if($_GET['table']=="Medical"){
-                      echo "<form> <label for="sel1">Select list (select one):</label><br> Description: <input type="text"><br> Modification :<input type="text"><br>Skill Id: <input type="text"> <br><submit></form>";
-                    }
-                  }
-                 ?>
+                
             </div>
         </div>
       </div>
