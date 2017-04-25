@@ -51,7 +51,7 @@ elseif ($_GET['table']=="Talents") {
     ID: <input type="text" name="id"><br><br>
     <input type="submit">';
 }
-elseif ($_GET['table']=="Technicals") {
+elseif ($_GET['table']=="Technical") {
   echo '<br><br><form action="techpro.php" method="post">
     Description:<input type="text" name="des" required><br><br>
     Modifiaction: <input type="text" name="mod" required><br><br>
