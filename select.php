@@ -26,7 +26,7 @@
                       <?php
                       include 'tabinfo.php';
                       ?>
-                        </select>
+                    </select><br><br>
                 <input type="submit"></form>
             </div>
         </div>
