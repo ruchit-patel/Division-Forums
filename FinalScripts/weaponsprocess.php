@@ -25,21 +25,21 @@
             $bnsmax=$_POST['wbnsmax'];
             $qmain="INSERT INTO wepMain VALUES('$id','$name','$var','$info','$img','$rw')";
             if (mysqli_query($conn, $qmain)) {
+                 $qsts="INSERT INTO wepStats VALUES('$id','$typ',$rpm,$mgsi,$rng,$rld,$hsd)";
+                if (mysqli_query($conn, $qsts)) {
 
+                } else {
+                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                }
+                $qbns="INSERT INTO wepBns VALUES('$id','$bnstyp',$bnsmin,$bnsmax)";
+                if (mysqli_query($conn, $qbns)) {
+                    header("location: insafter.php");
+                } else {
+                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                }
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
-            $qsts="INSERT INTO wepStats VALUES('$id','$typ',$rpm,$mgsi,$rng,$rld,$hsd)";
-            if (mysqli_query($conn, $qsts)) {
 
-            } else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
-            $qbns="INSERT INTO wepBns VALUES('$id','$bnstyp',$bnsmin,$bnsmax)";
-            if (mysqli_query($conn, $qbns)) {
-                header("location: ../insafter.php");
-            } else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
             mysqli_close($conn);
 ?>
