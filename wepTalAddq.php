@@ -17,20 +17,9 @@
             $mmr=$_POST['tmmr'];
             $shot=$_POST['tshot'];
             $side=$_POST['tside'];
-            $qmain="INSERT INTO wepMain VALUES('$id','$name','$var','$info','$img','$rw')";
+            $qmain="INSERT INTO wepTal VALUES('$id','$name','$desc','$ar','$lmg','$smg','$mmr','$shot','$side')";
             if (mysqli_query($conn, $qmain)) {
-                 $qsts="INSERT INTO wepStats VALUES('$id','$typ',$rpm,$mgsi,$rng,$rld,$hsd)";
-                if (mysqli_query($conn, $qsts)) {
-
-                } else {
-                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-                }
-                $qbns="INSERT INTO wepBns VALUES('$id','$bnstyp',$bnsmin,$bnsmax)";
-                if (mysqli_query($conn, $qbns)) {
-                    header("location: wepInfoAdd.php");
-                } else {
-                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-                }
+                 header("location: wepTalAdd.php");
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
