@@ -89,7 +89,7 @@ else
 	echo "Error Check Again";
 }	
 
-$query_stats="INSERT INTO Skills_Stats VALUES('$skill_stats_name','$skill_stats_mod1','$skill_stats_mod2','$skill_stats_mod3')";
+$query_stats="INSERT INTO Skills_Stats VALUES('$skill_stats_name','$skill_stats_base','$skill_stats_mod1','$skill_stats_mod2','$skill_stats_mod3','$skill_stats_skillname')";
 
 if(mysqli_query($conn,$query_stats))
 {
