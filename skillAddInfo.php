@@ -23,6 +23,8 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	
 
 	$skill_stats_name=$_POST['skill_stats_name'];
+	$skill_stats_skillname=$_POST['skill_stats_skillname'];
+	$skill_stats_base=$_POST['skill_stats_base'];
 	$skill_stats_mod1=$_POST['skill_stats_mod1'];
 	$skill_stats_mod2=$_POST['skill_stats_mod2'];
 	$skill_stats_mod3=$_POST['skill_stats_mod3'];
