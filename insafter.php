@@ -20,7 +20,7 @@ echo '<br><br><form action="techpro.php" method="post">
 elseif ($_GET['table']=="News") {
   echo "<h1><center>News Table</h1></center>";
   echo '<br><br><form action="techpro.php" method="post">
-    News Content : <textarea name="comment" rows="5" cols="40"></textarea><br><br>
+    News Content :<br> <textarea name="comment" rows="5" cols="40"></textarea><br><br>
     <input type="submit">';
 }
 elseif ($_GET['table']=="Perks") {
