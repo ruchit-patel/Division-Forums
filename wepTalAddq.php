@@ -33,7 +33,7 @@
                 $shot='F';
             }
             if(empty($_POST['tside'])){
-                $ar='F';
+                $side='F';
             }
             $qmain="INSERT INTO wepTal VALUES('$id','$name','$desc','$ar','$lmg','$smg','$mmr','$shot','$side')";
             if (mysqli_query($conn, $qmain)) {
