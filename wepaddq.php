@@ -29,13 +29,13 @@
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
-            $qsts="INSERT INTO wepStats VALUES('$id','$typ','$rpm','$mgsi','$rng','$rld','$hsd')";
+            $qsts="INSERT INTO wepStats VALUES('$id','$typ',$rpm,$mgsi,$rng,$rld,$hsd)";
             if (mysqli_query($conn, $qsts)) {
 
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
-            $qbns="INSERT INTO wepBns VALUES('$id','$bnstyp','$bnsmin','$bnsmax')";
+            $qbns="INSERT INTO wepBns VALUES('$id','$bnstyp',$bnsmin,$bnsmax)";
             if (mysqli_query($conn, $qbns)) {
                 header("location: wepInfoAdd.php");
             } else {
