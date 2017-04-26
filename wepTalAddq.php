@@ -17,6 +17,24 @@
             $mmr=$_POST['tmmr'];
             $shot=$_POST['tshot'];
             $side=$_POST['tside'];
+            if(empty($_POST['tar'])){
+                $ar='F';
+            }
+            if(empty($_POST['tlmg'])){
+                $lmg='F';
+            }
+            if(empty($_POST['tsmg'])){
+                $smg='F';
+            }
+            if(empty($_POST['tmmr'])){
+                $mmr='F';
+            }
+            if(empty($_POST['tshot'])){
+                $shot='F';
+            }
+            if(empty($_POST['tside'])){
+                $ar='F';
+            }
             $qmain="INSERT INTO wepTal VALUES('$id','$name','$desc','$ar','$lmg','$smg','$mmr','$shot','$side')";
             if (mysqli_query($conn, $qmain)) {
                  header("location: wepTalAdd.php");
