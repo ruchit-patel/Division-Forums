@@ -1,6 +1,6 @@
 <html>
     <body>
-        <form method="post" action="wepTaladdq.php">
+        <form method="post" action="wepTalAddq.php">
             ID:<input type="text" name="tid"><br><br>
             Name:<input type="text" name="tname"><br><br>
             Description:<textarea rows="4" cols="50" name="tdesc"></textarea><br><br>
