@@ -34,7 +34,7 @@ $query_skills="INSERT INTO Skills('Skill_Description','Image') VALUES('$skill_de
 
 if(mysqli_query($conn,$query_skills))
 {
-	header("location: skillInfoAdd.php");
+	header("location: skillAddInfo.html");
 }
 else
 {
@@ -93,7 +93,7 @@ $query_stats="INSERT INTO Skills_Stats VALUES('$skill_stats_name','$skill_stats_
 
 if(mysqli_query($conn,$query_stats))
 {
-	header("location: skillInfoAdd.php");
+	header("location: skillAddInfo.html");
 }
 else
 {
