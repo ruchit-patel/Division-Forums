@@ -13,8 +13,8 @@ $servername = "localhost";
 
 if($_SERVER['REQUEST_METHOD']=="POST")
 {
-	$skill_description=$_POST['skill_description'];
-	$skill_image=$_POST['skill_image'];
+	//$skill_description=$_POST['skill_description'];
+	//$skill_image=$_POST['skill_image'];
 
 	$skill_mastermod_category=$_POST['skill_mastermod_category'];
 	$skill_mastermod_name=$_POST['skill_mastermod_name'];
@@ -30,7 +30,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	$skill_stats_mod3=$_POST['skill_stats_mod3']; */
 }
 
-$query_skills="INSERT INTO Skills(Skill_Description,Image) VALUES('$skill_description','$skill_image')";	
+/*$query_skills="INSERT INTO Skills(Skill_Description,Image) VALUES('$skill_description','$skill_image')";	
 
 if(mysqli_query($conn,$query_skills))
 {
@@ -39,7 +39,7 @@ if(mysqli_query($conn,$query_skills))
 else
 {
 	echo "Error Check Again";
-}
+}*/
 
 if($skill_mastermod_category=="Medical")
 {	
