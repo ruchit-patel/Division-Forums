@@ -24,7 +24,7 @@ if (mysqli_num_rows($result) > 0) {
         echo '<option> Weapons </option>';
       }
       }
-        else if($row["Tables_in_division"]=="Perks" || $row["Tables_in_division"]=="Security" || $row["Tables_in_division"]=="Technical"){
+        else if($row["Tables_in_division"]=="Medical" || $row["Tables_in_division"]=="Security" || $row["Tables_in_division"]=="Technical"){
           $cnt++;
           if($cnt==1)
           {
