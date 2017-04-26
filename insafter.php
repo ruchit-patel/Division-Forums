@@ -9,15 +9,7 @@ include 'select.php';
         <div class="card-block">
 <?php
 if($_SERVER['REQUEST_METHOD']=="GET"){
-  if($_GET['table']=="Medical"){
-      echo "<h1><center>Medical Table</h1></center>";
-echo '<br><br><form action="techpro.php" method="post">
-  Description:<input type="text" name="des" required><br><br>
-  Modifiaction: <input type="text" name="mod" required><br><br>
-  ID: <input type="text" name="id"><br><br>
-  <input type="submit">';
-}
-elseif ($_GET['table']=="News") {
+if ($_GET['table']=="News") {
   echo "<h1><center>News Table</h1></center>";
   echo '<br><br><form action="techpro.php" method="post">
     News Content :<br> <textarea name="comment" rows="5" cols="40"></textarea><br><br>
@@ -26,19 +18,12 @@ elseif ($_GET['table']=="News") {
 elseif ($_GET['table']=="Perks") {
     echo "<h1><center>Perks Table</h1></center>";
   echo '<br><br><form action="techpro.php" method="post">
-  Name: <input type="text" name="des" required><br><br>
+    Name: <input type="text" name="des" required><br><br>
     Category: <input type="text" name="mod" required><br><br>
     Description: <input type="text" name="id" required ><br><br>
-    <input type="submit">';
+    <input type="submit"></form>';
 }
-elseif ($_GET['table']=="Security") {
-    echo "<h1><center>Security Table</h1></center>";
-  echo '<br><br><form action="techpro.php" method="post">
-    Description:<input type="text" name="des" required><br><br>
-    Modifiaction: <input type="text" name="mod" required><br><br>
-    Skill ID: <input type="text" name="id" required><br><br>
-    <input type="submit">';
-}
+
 elseif ($_GET['table']=="Skills") {
     echo "<h1><center>Skills Table</h1></center>";
   echo '<br><br><form action="techpro.php" method="post">
@@ -67,48 +52,31 @@ elseif ($_GET['table']=="Talents") {
     Description:<br><br><textarea name="comment" rows="5" cols="40"></textarea><br><br>
     <input type="submit">';
 }
-elseif ($_GET['table']=="Technical") {
-    echo "<h1><center>Technical Table</h1></center>";
-  echo '<br><br><form action="techpro.php" method="post">
-    Description:<input type="text" name="des" required><br><br>
-    Modifiaction: <input type="text" name="mod" required><br><br>
-    Skill ID: <input type="text" name="id"><br><br>
-    <input type="submit">';
-}
 
-elseif ($_GET['table']=="wepBns") {
+
+elseif ($_GET['table']=="Weapons") {
     echo "<h1><center>Weapon Bonus Table</h1></center>";
-  echo '<br><br><form action="techpro.php" method="post">
-    Weapon Id:<input type="text" name="wepid" required><br><br>
-    Weapon Bonus Type:<input type="text" name="" required><br><br>
-    Weapon Bonus Max:<input type="text" name="wepid" required><br><br>
-    Weapon Bonus Min:<input type="text" name="wepid" required><br><br>
-    <input type="submit">';
+  echo '<br><br><form method="post" action="FinalScripts/weaponsprocess.php">
+            Wep ID: <input type="text" name="wid"><br><br>
+            Name: <input type="text" name="wname"><br><br>
+            Varients: <input type="text" name="wvar"><br><br>
+            Info: <textarea rows="4" cols="50" name="winfo"></textarea><br><br>
+            Real World: <textarea rows="4" cols="50" name="wrw"></textarea><br><br>
+            Img: <input type="text" name="wimg"><br><br>
+            Type: <input type="text" name="wtyp"><br><br>
+            RPM: <input type="text" name="wrpm"><br><br>
+            Mag Size: <input type="text" name="wmgsi"><br><br>
+            Range: <input type="text" name="wrng"><br><br>
+            Reload: <input type="text" name="wrld"><br><br>
+            Headshot Bonus: <input type="text" name="whsd"><br><br>
+            Bonus Type: <input type="text" name="wbnstyp"><br><br>
+            Bonus min: <input type="text" name="wbnsmin"><br><br>
+            Bonus max: <input type="text" name="wbnsmax"><br><br>
+            <input type="Submit">
+        </form>';
 }
-elseif ($_GET['table']=="wepMain") {
-    echo "<h1><center>Weapon Main Table</h1></center>";
-  echo '<br><br><form action="techpro.php" method="post">
-    Weapon Id:<input type="text" name="wepid" required><br><br>
-    Weapon Name: <input type="text" name="wepname" required><br><br>
-    Weapon Variants: <input type="text" name="varinats" required><br><br>
-    Weapon Info: <input type="text" name=""><br><br>
-    Weapon Image: <input type="text" name=""><br><br>
-    Weapon Real World Info: <input type="text" name=""><br><br>
 
-    <input type="submit">';
-}
-elseif ($_GET['table']=="wepStats") {
-    echo "<h1><center>Weapon Stats Table</h1></center>";
-  echo '<br><br><form action="techpro.php" method="post">
-    Weapon Id:<input type="text" name="" required><br><br>
-    Weapon Type: <input type="text" name="" required><br><br>
-    Weapon RPM: <input type="text" name="" required><br><br>
-    Weapon Magazine Size: <input type="text" name="" required><br><br>
-    Weapon Range: <input type="text" name="" required><br><br>
-    Weapon Reload Speed: <input type="text" name="" required><br><br>
-    Weapon Head Shot Damage Multiplier: <input type="text" name="" required><br><br>
-    <input type="submit">';
-}
+
 }
 
 
