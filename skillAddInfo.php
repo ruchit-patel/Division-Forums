@@ -28,11 +28,11 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	$skill_stats_mod3=$_POST['skill_stats_mod3'];
 }
 
-$query_skills="insert into Skills('Skill_Description','Image') values('$skill_description','$skill_image')";	
+$query_skills="INSERT INTO Skills('Skill_Description','Image') VALUES('$skill_description','$skill_image')";	
 
 if(mysqli_query($conn,$query_skills))
 {
-	
+	header("location: skillInfoAdd.php");
 }
 else
 {
@@ -41,7 +41,7 @@ else
 
 if($skill_mastermod_category=="Medical")
 {	
-$query_mod1="insert into Medical values('$skill_mastermod_description','$skill_mastermod_name','$skill_mastermod_id')"; 	
+$query_mod1="INSERT INTO Medical VALUES('$skill_mastermod_description','$skill_mastermod_name','$skill_mastermod_id')"; 	
 	
 	if(mysqli_query($conn,$query_mod1))
 	{
@@ -56,7 +56,7 @@ $query_mod1="insert into Medical values('$skill_mastermod_description','$skill_m
 
 else if($skill_mastermod_category=="Technical")
 {
-$query_mod2="insert into Technical values('$skill_mastermod_description','$skill_mastermod_name','$skill_mastermod_id')";
+$query_mod2="INSERT INTO Technical VALUES('$skill_mastermod_description','$skill_mastermod_name','$skill_mastermod_id')";
 
 	if(mysqli_query($conn,$query_mod2))
 	{
@@ -70,7 +70,7 @@ $query_mod2="insert into Technical values('$skill_mastermod_description','$skill
 }
 else if($skill_mastermod_category=="Security")
 {
-$query_mod3="insert into Security values('$skill_mastermod_description','$skill_mastermod_name','$skill_mastermod_id')";
+$query_mod3="INSERT INTO Security VALUES('$skill_mastermod_description','$skill_mastermod_name','$skill_mastermod_id')";
 
 	if(mysqli_query($conn,$query_mod3))
 	{
@@ -87,7 +87,7 @@ else
 	echo "Error Check Again";
 }	
 
-$query_stats="insert into Skills_Stats values('$skill_stats_name','$skill_stats_mod1','$skill_stats_mod2','$skill_stats_mod3')";
+$query_stats="INSERT INTO Skills_Stats VALUES('$skill_stats_name','$skill_stats_mod1','$skill_stats_mod2','$skill_stats_mod3')";
 
 if(mysqli_query($conn,$query_stats))
 {
