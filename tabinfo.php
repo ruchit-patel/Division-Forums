@@ -14,6 +14,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
   $count=0;
+  $cnt=0;
     // output data of each row
     while($row = mysqli_fetch_assoc($result)) {
       if($row["Tables_in_division"]=="wepBns" || $row["Tables_in_division"]=="wepMain" || $row["Tables_in_division"]=="wepStats" ){
@@ -24,7 +25,11 @@ if (mysqli_num_rows($result) > 0) {
       }
       }
         else if($row["Tables_in_division"]=="Perks" || $row["Tables_in_division"]=="Security" || $row["Tables_in_division"]=="Technical"){
+          $cnt++;
+          if($cnt==1)
+          {
           echo '<option> Skills </option>';
+          }
         }
         else{
           echo "<option> ".$row["Tables_in_division"]."</option>";
