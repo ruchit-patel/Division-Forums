@@ -23,7 +23,7 @@
 
 if(mysqli_query($conn,$query_stats))
 {
-	header("location: skillAddInfo.html");
+	header("location: skillstatsAddInfo.html");
 }
 else
 {
