@@ -1,6 +1,6 @@
 <html>
     <body>
-        <form method="post">
+        <form method="post" action="wepaddq.php">
             Wep ID: <input type="text" name="wid"><br><br>
             Name: <input type="text" name="wname"><br><br>
             Varients: <input type="text" name="wvar"><br><br>
@@ -18,7 +18,5 @@
             Bonus max: <input type="text" name="wbnsmax"><br><br>
             <input type="Submit">
         </form>
-        <?php include 'wepaddq.php';?>
-
     </body>
 </html>
