@@ -28,7 +28,7 @@
       </div>
 
       <div class="item">
-      <iframe width="1000" height="500" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="1010" height="600" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="item">
