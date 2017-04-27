@@ -34,7 +34,10 @@
         <li><a href="" class="active">Button 1</a></li>
       </ul>
   </navbar>
-
+<br><br>
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-7">
 <div class="container">
   <div id="myCarousel" class="carousel slide" data-interval="false">
   <!--div id="myCarousel" class="carousel slide" data-ride="carousel"-->
@@ -70,6 +73,13 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+</div>
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-2">
+News
+</div>
+<div class="col-md-1"></div>
 </div>
 
 <div class="row">
