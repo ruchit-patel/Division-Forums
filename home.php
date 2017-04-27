@@ -101,5 +101,95 @@
 	<br><br><br><br><br>
 </div>
 
+<div class="wrapper">
+            <div class="row">
+				
+				
+                <div class="col-md-5 col-md-offset-1">
+                    <div class="card" style="min-height:600px;">
+                        <div class="card-block">
+							
+                            <p class="crd-h1" style="font-size:30px;">Weapon</p>
+							<font size="5">
+							<!--content of Weapon --> 
+							<img src="Images\Homepage_Images\wep.jpg" class="w3-circle" width="100%">
+							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
+							</font>
+                        </div>
+						
+						<div class="card-block">
+							
+                            <p class="crd-h1" style="font-size:30px;">Gear</p>
+							<font size="5">
+							<!--content of Weapon -->
+							<img src="Images\Homepage_Images\gear.jpg" class="w3-circle" width="100%">
+							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
+							</font>
+                        </div>
+						
+                    </div>
+                </div>
+				
+				
+				
+				<!--div class="col-md-2 col-md-offset-0">
+                    <div class="card" style="min-height:250px;">
+                        <div class="card-block">
+							
+                            <p class="crd-h1" style="font-size:30px;">Gear</p>
+							<font size="5">
+							<!--content of Weapon -->
+							<!--img src="Images\Homepage_Images\gear.jpg" class="w3-circle" width="100%">
+							<!--info-->
+							<!--/font>
+                        </div>
+                    </div>
+                </div-->
+				
+				<div class="col-md-5 col-md-offset-0">
+                    <div class="card" style="min-height:250px;">
+                        <div class="card-block">
+							
+                            <p class="crd-h1" style="font-size:30px;">Skill</p>
+							<font size="5">
+							<!--content of Weapon -->
+							<img src="Images\Homepage_Images\skills.jpg" class="w3-circle" width="100%">
+							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
+							</font>
+                        </div>
+						
+						<div class="card-block">
+							
+                            <p class="crd-h1" style="font-size:30px;">Mod</p>
+							<font size="5">
+							<!--content of Weapon -->
+							<img src="Images\Homepage_Images\gear_mods.jpg" class="w3-circle" width="100%">
+							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
+							</font>
+                        </div>
+						
+                    </div>
+                </div>
+				
+				<!--div class="col-md-3 col-md-offset-0">
+                    <div class="card" style="min-height:250px;">
+                        <div class="card-block">
+							
+                            <p class="crd-h1" style="font-size:30px;">Mod</p>
+							<font size="5">
+							<!--content of Weapon -->
+							<!--img src="Images\Homepage_Images\mods.jpg" class="w3-circle" width="100%">
+							<!--info-->
+							<!--/font>
+                        </div>
+                    </div>
+                </div-->
+				
+				<div class="col-md-1 col-md-offset-0"> </div>
+				
+			</div> 
+</div> <!--General info card ends here-->
+
+
 </body>
 </html>
