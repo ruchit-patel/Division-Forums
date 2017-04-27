@@ -35,7 +35,7 @@ li a:hover:not(.active) {
 li:last-child {
     border-left: none;
 }
-.active-a {
+.active {
     background-color: #ff8f00;
     color: #ffffff;
 }
