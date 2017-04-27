@@ -27,7 +27,7 @@
       </div>
 
       <div class="item">
-        <img src="Images/slide2.jpeg" alt="Chicago" style="width:100%;">
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="item">
