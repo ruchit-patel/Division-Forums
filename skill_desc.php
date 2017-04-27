@@ -17,7 +17,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	$image_path=$_POST['image_path'];
 }
 
-for(i=1;i<13;i++)
+for($i=1;$i<13;$i++)
 {
 		$q="INSERT INTO Skills Skill_Description='$skill_description' AND Image='$image_path' where Skill_Id='$i'";
 		
