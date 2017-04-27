@@ -45,7 +45,7 @@
       </div>
 
       <div class="item">
-      <iframe width="1010" height="700" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe  height="700" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="item">
@@ -79,7 +79,7 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card" style="min-height:250px;">
                         <div class="card-block">
-							
+
                             <p class="crd-h1" style="font-size:30px;">General Info</p>
 							<font size="5">
 							<!--content of General Info -->
@@ -87,14 +87,14 @@
                         </div>
                     </div>
                 </div>
-				
+
 				<div class="col-md-1"> <!--leaving one col from the right-->
 
 				</div>
-				
-				
-				
-			</div> 
+
+
+
+			</div>
 </div> <!--General info card ends here-->
 
 <div class="row">
