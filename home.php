@@ -45,7 +45,7 @@
       </div>
 
       <div class="item">
-      <iframe  height="700" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="1030" height="700" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="item">
