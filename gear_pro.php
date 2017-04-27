@@ -16,9 +16,10 @@ $noma2=mysqli_real_escape_string($conn,$_POST['noma2']);
 $secstat=mysqli_real_escape_string($conn,$_POST['secnst']);
 $mnstmin=mysqli_real_escape_string($conn,$_POST['mnstmin']);
 $mnstmax=mysqli_real_escape_string($conn,$_POST['mnstmax']);
-$natarm=mysqli_real_escape_string($conn,$_POST['natarm']);
+$natarmmin=mysqli_real_escape_string($conn,$_POST['natarmmin']);
+$natarmmax=mysqli_real_escape_string($conn,$_POST['natarmmax']);
 
-$sql = "INSERT INTO gearMain values ('$id','$type','$mnst','$noma1','$noma2','$secstat','$mnstmin','$mnstmax','$natarm')";
+$sql = "INSERT INTO gearMain values ('$id','$type','$mnst','$noma1','$noma2','$secstat','$mnstmin','$mnstmax','$natarmmin','$natarmmax')";
 
 
 if (mysqli_query($conn, $sql)) {
