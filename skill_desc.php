@@ -27,7 +27,7 @@ for($i=1;$i<13;$i++)
 		}
 		else
 		{
-			mysqli_error();
+			echo "Check karo bhaila";
 		}	
 }
 
