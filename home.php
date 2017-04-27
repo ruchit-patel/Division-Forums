@@ -13,7 +13,15 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
 	<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -120,22 +128,22 @@ News
 
 <div class="wrapper">
             <div class="row">
-				
-				
+
+
                 <div class="col-md-5 col-md-offset-1">
                     <div class="card" style="min-height:600px;">
                         <div class="card-block">
-							
+
                             <p class="crd-h1" style="font-size:30px;">Weapon</p>
 							<font size="5">
-							<!--content of Weapon --> 
+							<!--content of Weapon -->
 							<img src="Images\Homepage_Images\wep.jpg" class="w3-circle" width="100%">
 							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
 							</font>
                         </div>
-						
+
 						<div class="card-block">
-							
+
                             <p class="crd-h1" style="font-size:30px;">Gear</p>
 							<font size="5">
 							<!--content of Weapon -->
@@ -143,16 +151,16 @@ News
 							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
 							</font>
                         </div>
-						
+
                     </div>
                 </div>
-				
-				
-				
+
+
+
 				<!--div class="col-md-2 col-md-offset-0">
                     <div class="card" style="min-height:250px;">
                         <div class="card-block">
-							
+
                             <p class="crd-h1" style="font-size:30px;">Gear</p>
 							<font size="5">
 							<!--content of Weapon -->
@@ -162,11 +170,11 @@ News
                         </div>
                     </div>
                 </div-->
-				
+
 				<div class="col-md-5 col-md-offset-0">
                     <div class="card" style="min-height:250px;">
                         <div class="card-block">
-							
+
                             <p class="crd-h1" style="font-size:30px;">Skill</p>
 							<font size="5">
 							<!--content of Weapon -->
@@ -174,9 +182,9 @@ News
 							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
 							</font>
                         </div>
-						
+
 						<div class="card-block">
-							
+
                             <p class="crd-h1" style="font-size:30px;">Mod</p>
 							<font size="5">
 							<!--content of Weapon -->
@@ -184,14 +192,14 @@ News
 							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
 							</font>
                         </div>
-						
+
                     </div>
                 </div>
-				
+
 				<!--div class="col-md-3 col-md-offset-0">
                     <div class="card" style="min-height:250px;">
                         <div class="card-block">
-							
+
                             <p class="crd-h1" style="font-size:30px;">Mod</p>
 							<font size="5">
 							<!--content of Weapon -->
@@ -201,12 +209,28 @@ News
                         </div>
                     </div>
                 </div-->
-				
-				<div class="col-md-1 col-md-offset-0"> </div>
-				
-			</div> 
-</div> <!--General info card ends here-->
 
+				<div class="col-md-1 col-md-offset-0"> </div>
+
+			</div>
+</div> <!--General info card ends here-->
+</div class="row">
+<div class="col-md-1">
+</div>
+<div class="col-md-4">
+  <div style="background-color: grey; height: 50%; width:40%; border-radius:5px;">
+    <div style="margin-left:12px;">
+  <div class="fb-page" data-href="https://www.facebook.com/ISACs-Data-Warehouse-1902289280055639/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ISACs-Data-Warehouse-1902289280055639/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ISACs-Data-Warehouse-1902289280055639/">ISAC&#039;s Data Warehouse</a></blockquote></div>
+  </div></div>
+</div>
+<div class="col-md-1">
+</div>
+<div class="col-md-4">
+  <a class="twitter-timeline" data-theme="dark" data-link-color="#E95F28" href="https://twitter.com/ISAC_DW">Tweets by ISAC_DW</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div class="col-md-1">
+</div>
+</div>
 
 </body>
 </html>
