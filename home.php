@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>I.S.A.C's Data Warehouse</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -28,7 +28,6 @@
 <body style="background-color:black;">
 
 <div class="container">
-  <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide" data-interval="false">
   <!--div id="myCarousel" class="carousel slide" data-ride="carousel"-->
     <!-- Indicators -->
