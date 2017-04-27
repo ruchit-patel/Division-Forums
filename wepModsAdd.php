@@ -1,6 +1,6 @@
 <html>
     <body>
-        <form method="post" action="wepTalAddq.php">
+        <form method="post" action="wepModsAddq.php">
             ID:<input type="text" name="wid"><br><br>
             Optics_sm:<input type="checkbox" name="mos" value="T"><br><br>
             Optics_lg:<input type="checkbox" name="mol" value="T"><br><br>
