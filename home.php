@@ -218,7 +218,7 @@ News
 <div class="col-md-1">
 </div>
 <div class="col-md-4">
-  <div style="background-color: grey; height: 100%; width:200%; border-radius:5px;">
+  <div style="background-color: grey; height: 100%; width:100%; border-radius:5px;">
     <div style="margin-left:12px;">
   <div class="fb-page" data-href="https://www.facebook.com/ISACs-Data-Warehouse-1902289280055639/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ISACs-Data-Warehouse-1902289280055639/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ISACs-Data-Warehouse-1902289280055639/">ISAC&#039;s Data Warehouse</a></blockquote></div>
   </div></div>
