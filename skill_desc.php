@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 //for($i=1;$i<13;$i++)
 //{
 		//$q="INSERT INTO Skills (Skill_Description,Image) values('$skill_description','$image_path') where Skill_Id='$id'";
-    $q="UPDATE Skills set Skill_Description='$skill_description', Image='$image_path' where $id='$id'";
+    $q="UPDATE Skills set Skill_Description='$skill_description', Image='$image_path' where Skill_Id='$id'";
 		mysqli_query($conn,$q);
 //}
 
