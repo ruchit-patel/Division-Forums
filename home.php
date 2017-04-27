@@ -213,7 +213,10 @@ News
 				<div class="col-md-1 col-md-offset-0"> </div>
 
 			</div>
-</div> <!--General info card ends here-->
+</div>
+<!--General info card ends here-->
+
+</div class="row"><br><br><br></div>
 </div class="row">
 <div class="col-md-1">
 </div>
