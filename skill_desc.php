@@ -21,7 +21,14 @@ for($i=1;$i<13;$i++)
 {
 		$q="INSERT INTO Skills (Skill_Description,Image) values('$skill_description','$image_path') where Skill_Id='10$i'";
 
-		mysqli_query($conn,$q);
+		if(mysqli_query($conn,$q))
+		{
+			header("location:skill_desc.html");
+		}
+		else
+		{
+			mysqli_error();
+		}	
 }
 
 mysqli_close($conn);
