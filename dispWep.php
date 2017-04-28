@@ -9,7 +9,7 @@
                 die("Connection failed: " . mysqli_connect_error());
             }
             $qur="SELECT wep_ID, wep_Name FROM wepMain";
-                echo "<table>";
+                echo "<table style='width: 100%;'>";
                 echo "<tr>";
                 $i=1;
                 $result = mysqli_query($conn, $qur) OR die("".mysqli_error($conn));
@@ -20,11 +20,11 @@
                     echo "<input type='hidden' name='wID' value='$wId'>";
                     echo "<input type='Submit' value='$wName' form='wepDecide'>";
                     echo "</form></td>";
-                    $i++;
                     if($i%10==0){
                         echo "</tr>";
                         echo "<tr>";                        
                     }
+                    $i++;
                 }
                 echo "</tr>";
                 echo "</table>";
