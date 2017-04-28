@@ -6,6 +6,10 @@
   font-family: Borda-Bold;
   src: url("../FontFiles/The.Northern.Block.Ltd_Borda.Bold.otf");
 }
+@font-face {
+  font-family: Borda-Medium;
+  src: url("../FontFiles/The.Northern.Block.Ltd_Borda.Medium.otf");
+}
 /*Card CSS */
 .card {
     /* Add shadows to create the "card" effect */
