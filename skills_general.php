@@ -36,7 +36,7 @@
 			  
 				<p>There 3 types of Skills:</p>
 				<ul>
-                    <li><a href="#Shot" style="color: #8BC34A;">Medical</a></li>
+                    <li><a href="#Shot" style="color: #4CAF50;">Medical</a></li>
                     <li><a href="#SMG" style="color: #FFA000;">Technical</a></li>
                     <li><a href="#AR" style="color: #2196F3;">Security</a></li>
                 </ul>
