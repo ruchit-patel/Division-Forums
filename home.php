@@ -95,7 +95,15 @@
   <!--/div-->
   <div class="col-md-1"></div>
   <div class="col-md-2">
-    News
+          <div class="card">
+          <div class="card-block">
+
+            <p class="crd-h1" style="font-size:30px;">News</p>
+              <font size="5">
+          <!--content of General Info -->
+              </font>
+              </div>
+              </div>
   </div>
   <div class="col-md-1"></div>
   </div>
