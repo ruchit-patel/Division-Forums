@@ -45,6 +45,7 @@ p{
 			ini_set('display_errors', 1);
 			$skill_id=$_GET['skill_id'];
 			$category_type=$_GET['category_type'];
+			$sig=$_GET['Sig'];
 			$tbl;
 			if($category_type=='Medical Skills'){
 				$tbl="Medical";
@@ -60,11 +61,16 @@ p{
             $password = "admin";
             $dbname = "division";
             $conn = mysqli_connect($servername, $username, $password, $dbname);
+			$name;
+			$skill_description;
+			$image;
+			$description;
+			$modification;
             // Check connection
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
             }
-			
+			if($sig=='F'){
 			$sql="SELECT * FROM Skills NATURAL JOIN $tbl where Skill_id='$skill_id' AND Category_Type='$category_type'";
 			$result=mysqli_query($conn,$sql) OR DIE ("".mysqli_error($conn));
 			$row=mysqli_fetch_assoc($result);
@@ -75,7 +81,17 @@ p{
 			
 			$description=$row['Description'];
 			$modification=$row['Modification'];
-			
+			}
+			else if($sig=='T'){
+				$sql="SELECT * FROM Skills NATURAL JOIN $tbl where Skill_id='$skill_id'";
+				$result=mysqli_query($conn,$sql) OR DIE ("".mysqli_error($conn));
+				$row=mysqli_fetch_assoc($result);
+				$name=$row['Name'];
+				$skill_description=$row['Skill_Description'];
+				$image=$row['Image'];
+				$description=NULL;
+				$modification="No Mods for Signature Skills";
+			}
 			
 			
 			
