@@ -48,7 +48,8 @@
     font-size: 32;
 }
 .caser{
-    background-color: #ff8f00;
-    color: #000000;
+    background-color: #ffffff;
+    color: #ff8f00;
+    border: 1px solid #ff8f00;
     font-size: 20px;
 }

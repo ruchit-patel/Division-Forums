@@ -21,12 +21,12 @@
                             <p class="crd-h1">WEAPONS</p>
                                 <p>Weapons in Tom Clancy's The Division are separated into 6 unique classes. They are:</p>
                                 <ul>
-                                    <li><a href="#">Shotguns</a></li>
-                                    <li><a href="#">Submachine Guns</a></li>
-                                    <li><a href="#">Assault Rifles</a></li>
-                                    <li><a href="#">Marksman Rifles</a></li>
-                                    <li><a href="#">Light Machine Guns</a></li>
-                                    <li><a href="#">Sidearms</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Shotguns</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Submachine Guns</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Assault Rifles</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Marksman Rifles</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Light Machine Guns</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Sidearms</a></li>
                                 </ul>
                         </div>
                     </div>
@@ -65,6 +65,82 @@
                             <p>The Shotguns in Tom Clancy's The Division are:</p>
                              <?php
                                 require 'FinalScripts/dispShot.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Assault Rifles</p>
+                            <p>Assault rifles fall intermediately in accuracy, range, rates of fire, and firepower. Assault rifles are selective fire, which can contribute to overall accuracy and marksmanship skills from a Marksman Rifles adapted onto this class of weapon.</p>
+                            <p>Assault rifles tend to be mid-range, full-automatic weapons, with some limited exceptions. Compared to SMGs, assault rifles tend to have a smaller bullet spread, stronger recoil, and longer optimal range. Additionally, all assault rifles have an innate headshot damage bonus of +75%, compared to +50% on most other weapons.</p>
+                            <p>Assault Rifles have a in-class bonus of 17.5-24% Enemy Armor Damage, increasing damage towards enemies having armor.</p>
+                            <p>The Assualt Rifles in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispAR.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Light Machine Guns</p>
+                            <p>Light Machine Guns are intended to be use at a mid-long range, supporting other players with accurate fire. LMGs have an increased suppression value, able to keep enemies in cover and unable to attack or deploy abilities.
+                                LMGs are quite hard to handle when out of cover, having low accuracy and stability. However, prolong amounts firing will increase accuracy and stability to almost the maximum possible.</p>
+                            <p>LMGs can be divided into two categories: belt-fed, and magazine fed.The belt-fed weapons have large magazines, high damage and decent rate of fire, but suffers from longer reload times.Magazine fed weapons have a higher rate of fire, but at a cost of a lower magazine size and lower damage.Light Machine Guns have a in-class bonus of bonus damage to enemies out of cover, increasing damage towards enemies that are not taking cover.</p>
+                            <p>Assault Rifles have a in-class bonus of 17.5-24% Enemy Armor Damage, increasing damage towards enemies having armor.</p>
+                            <p>The Light Machine Gun in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispLMG.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Marksman Rifles</p>
+                            <p>Marksman Rifles are separated into two types: bolt-action and semi-automatic. Bolt-Action rifles have a slower rate of fire, but have much higher damage. Semi-Automatic MMRs on the other hand have a faster rate of fire at the cost of damage.Marksman Rifles are accurate, but only from a stationary position. If the player moves, the reticle will bloom to almost max. When aiming the weapon, the reticle takes time to achieve maximum accuracy.In Tom Clancy's The Division, Marksman Rifles do a base +110% damage on headshots. In addition Marksman Rifles gain an additional 140-170% extra Headshot Damage as a bonus.</p>
+                            <p>The Marksman Rifles in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispMMR.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Submachine Guns</p>
+                            <p>Submachine Guns are used for close-range engagements, where their high rate of fire would outperform other weapons. They are also easy to handle due to light recoil and high stability.Submachine guns are high rate of fire, low damage weapons. They have rather low range, but have rather good handling traits.SMGs also have a in-class bonus of increased Critical Hit Chance, increasing chances to land critical hits and deal more damage towards enemies.</p>
+                            <p>The Submachine Guns in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispSide.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Sidearms</p>
+                            <p>Pistols are short range weapons, and have a lower damage range compared to primary weapons. The weapons differ from their rate of fire, damage, and handling traits. One of the advantages of pistols is that is has unlimited ammo supply.</p>
+                            <p>Each pistol will come with two talents, with the second talent being rolled with Expert, increasing damage towards enemies at low health.</p>
+                            <p>The Sidearms Guns in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispSMG.php';
                              ?>
                         </div>
                     </div>
