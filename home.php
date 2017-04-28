@@ -104,7 +104,7 @@
   <!--/div-->
   <div class="col-md-1"></div>
   <div class="col-md-2">
-          <div class="card" style="height:470px; width:300px; margin-left:-75px; ">
+          <div class="card" style="height:425px; width:300px; margin-left:-75px; ">
           <div class="card-block">
 
             <p class="crd-h1" style="font-size:30px;">News</p>
