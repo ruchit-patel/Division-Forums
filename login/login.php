@@ -26,6 +26,9 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
           echo "Hello".$_SESSION['uname'];
 
         }
+        else {
+          echo "password or uname incorrect!";
+        }
   }
 
 }
