@@ -12,7 +12,7 @@
                 echo "<table>";
                 echo "<tr>";
                 $i=1;
-                $result = mysqli_query($dbc, $qur);
+                $result = mysqli_query($conn, $qur) OR die("".mysqli_error($conn));
                 while($row = mysqli_fetch_assoc($result)){
                     $wName=$row['wep_Name'];
                     $wId=$row['wep_ID'];
