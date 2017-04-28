@@ -53,7 +53,7 @@
     border: 1px solid #ff8f00;
     font-size: 20px;
 }
-a.anchor {
+.anchor {
     display: block;
     height: 115px; /*same height as header*/
     margin-top: -115px; /*same height as header*/
