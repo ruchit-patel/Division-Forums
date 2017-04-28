@@ -15,7 +15,7 @@
                 $result = mysqli_query($conn, $qur) OR die("".mysqli_error($conn));
                 while($row = mysqli_fetch_assoc($result)){
                     $skill_id=$row['Skill_id'];
-                    $name=$row['name'];
+                    $name=$row['Name'];
                     echo "<td><form action='' method='POST' id='wepDecide'>";
                     echo "<input type='hidden' name='skill_id' value='$skill_id'>";
                     echo "<input type='Submit' class='caser' value='$name' form='wepDecide'>";
