@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <<<<<<< HEAD
-  
+
 	<link rel="stylesheet" href="CSS\home.css"
-	
+
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -67,7 +67,7 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="Images/slide1.jpg" alt="Los Angeles" style="width:100%;">
+              <img src="Images/slide1.jpg" alt="Los Angeles" style="width:110%;">
             </div>
 
             <div class="item">
