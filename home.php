@@ -91,22 +91,31 @@
 
   <!--/div-->
   <div class="col-md-1"></div>
+  
+ 
   <div class="col-md-2">
+		   
           <div class="card" style="height:425px; width:300px; margin-left:-75px; ">
+		  
           <div class="card-block">
-
+			 <marquee direction="up" scrollamount="7" onmouseover="this.stop();" onmouseout="this.start();">
             <p class="crd-h1" style="font-size:30px;">News</p>
               <font size="5">
+			  
 			  <!--content of General Info -->
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-259002-16/new-activity-for-our-season-pass-owners"> We come to you today with news on a topic that has generated a lot of discussion in the community: the “monthly events for Season Pass owners”. </a> <br>
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-256996-16/state-of-the-game-june-28th-2016"> Underground is now available for Xbox One and PC players. If you haven’t already, make sure you download the patch and let us know what you think! </a> <br>
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-254806-16/state-of-the-game-june-9th-2016"> Challenge Mode Clear Sky is now available! Grab your friends, organize your group, and get at it! </a> <br> 
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-252565-16/state-of-the-game-may-24th-2016"> We are extremely happy to get the update out there and can’t wait to hear what you think of it! </a> <br>
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-288024-16/introducing-agent-highlights"> It's our pleasure to introduce you to the Agent Highlights – a community focused article series to celebrate all kinds of content made by you. </a>
-			  
+			   
               </font>
+			  </marquee> 
               </div>
+			 
               </div>
+			  
+			 
   </div>
   <div class="col-md-1"></div>
   </div>
