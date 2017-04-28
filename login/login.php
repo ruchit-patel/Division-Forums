@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         if(mysqli_num_rows($run)==1){
           $row=mysqli_fetch_array($run,MYSQLI_ASSOC);
           session_start();
-          $_SESSION['uname']=$uname;
+          $_SESSION['uname']=$id;
           echo "Hello".$_SESSION['uname'];
 
         }
