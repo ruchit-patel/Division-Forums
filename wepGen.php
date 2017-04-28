@@ -21,7 +21,7 @@
                             <p class="crd-h1">WEAPONS</p>
                                 <p>Weapons in Tom Clancy's The Division are separated into 6 unique classes. They are:</p>
                                 <ul>
-                                    <li><a href="#" style="color: #ff8f00;">Shotguns</a></li>
+                                    <li><a href="#Shot" style="color: #ff8f00;">Shotguns</a></li>
                                     <li><a href="#" style="color: #ff8f00;">Submachine Guns</a></li>
                                     <li><a href="#" style="color: #ff8f00;">Assault Rifles</a></li>
                                     <li><a href="#" style="color: #ff8f00;">Marksman Rifles</a></li>
@@ -54,6 +54,7 @@
                     </div>
                 </div>
             </div>
+            <span class="anchor" id="Shot"></span>
             <div class="row" style="margin-top:15px;">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
@@ -66,6 +67,7 @@
                              <?php
                                 require 'FinalScripts/dispShot.php';
                              ?>
+                             <div id="AR"></div>
                         </div>
                     </div>
                 </div>
@@ -82,6 +84,7 @@
                              <?php
                                 require 'FinalScripts/dispAR.php';
                              ?>
+                             <div id="LMG"></div>
                         </div>
                     </div>
                 </div>
@@ -99,6 +102,7 @@
                              <?php
                                 require 'FinalScripts/dispLMG.php';
                              ?>
+                             <div id="MMR"></div>
                         </div>
                     </div>
                 </div>
@@ -113,6 +117,7 @@
                              <?php
                                 require 'FinalScripts/dispMMR.php';
                              ?>
+                             <div id="SMG"></div>
                         </div>
                     </div>
                 </div>
@@ -127,6 +132,7 @@
                              <?php
                                 require 'FinalScripts/dispSMG.php';
                              ?>
+                             <div id="side"></div>
                         </div>
                     </div>
                 </div>
