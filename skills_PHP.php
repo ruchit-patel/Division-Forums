@@ -43,7 +43,8 @@ p{
 
 	<?php
 			ini_set('display_errors', 1);
-			$skill_id=$_GET['Skill_id'];
+			$skill_id=$_GET['skill_id'];
+			$category_type=$_GET['category_type'];
 			$servername = "localhost";
             $username = "root";
             $password = "admin";
@@ -56,7 +57,7 @@ p{
 			
 			$sql="SELECT * FROM Skills NATURAL JOIN Medical where Skill_id='$skill_id' AND Category_Type='$category_type'";
 			$result=mysqli_query($conn,$sql) OR DIE ("".mysqli_error($conn));
-			$row=mysqi_fetch_assoc($conn,$result);
+			$row=mysqli_fetch_assoc($conn,$result);
 			
 			$skill_id=$_GET['Skill_id'];
 			$name=$_GET['Name'];
