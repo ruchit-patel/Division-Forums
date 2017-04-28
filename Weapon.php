@@ -39,7 +39,7 @@
                 $wBmax=$row['wep_Bmax'];
                 $wType=$row['wep_Type'];
                 $wRPM=$row['wep_RPM'];
-                $wMgsi=$row['wep_Mgsi'];
+                $wMgsi=$row['wep_MgSi'];
                 $wRng=$row['wep_Rng'];
                 $wRld=$row['wep_Rld'];
                 $wHsd=$row['wep_Hsd'];
