@@ -18,7 +18,7 @@
                     $name=$row['Name'];
                     echo "<td><form action='' method='POST' id='wepDecide'>";
                     echo "<input type='hidden' name='skill_id' value='$skill_id'>";
-                    echo "<input type='Submit' class='caser' value='$name' form='wepDecide'>";
+                    echo "<input type='Submit' class='caserTech' value='$name' form='wepDecide'>";
                     echo "</form></td>";
                     if($i%3==0){
                         echo "</tr>";
