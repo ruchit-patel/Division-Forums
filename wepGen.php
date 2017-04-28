@@ -50,7 +50,7 @@
                                     <li><l style="color: #FFD600;">High-end</l></li>
                                     <li><l style="color: #D32F2F;">Exotic</l></li> 
                                 </ul>
-                                <div id="Shot"></div>
+                                <a class="anchor" id="Shot"></a>
                         </div>
                     </div>
                 </div>
