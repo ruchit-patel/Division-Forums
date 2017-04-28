@@ -8,7 +8,7 @@
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
             }
-            $qur="SELECT Skill_Id,Name FROM Skills WHERE Category_Type='Tech Skills'";
+            $qur="SELECT Skill_id,Name,Signature FROM Skills WHERE Category_Type='Tech Skills'";
                 echo "<table style='table-layout: fixed; text-align:center;width:100%;'>";
                 echo "<tr>";
                 $i=1;
@@ -16,9 +16,11 @@
                 while($row = mysqli_fetch_assoc($result)){
                     $skill_id=$row['Skill_id'];
                     $name=$row['Name'];
+                    $sig=$row['Signature'];
                     echo "<td><form action='skills_PHP.php' method='GET'>";
                     echo "<input type='hidden' name='skill_id' value='$skill_id'>";
 					echo "<input type='hidden' name='category_type' value='Tech Skills'>";
+                    echo "<input type='hidden' name='Sig' value='$sig'>";
                     echo "<input type='Submit' class='caserTech' value='$name'>";
                     echo "</form></td>";
                     if($i%3==0){
