@@ -140,7 +140,7 @@
                             echo "<div class=\"card\">";
                                 echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Talents</p>";
-                                    echo "<table class=\"statsTbl\" border=\"1\" style='width:100%;'>";
+                                    echo "<table class=\"statTbl\" border=\"1\" style='width:100%;'>";
                                     echo "<tr style=\"font-weight: Bold;\"><td>Talent Name</td><td>Description</td>";                                    
                                     while($row = mysqli_fetch_assoc($talz)){
                                         $nm= $row['tal_Name'];
