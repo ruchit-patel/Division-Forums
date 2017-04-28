@@ -18,7 +18,7 @@
                     $wId=$row['wep_ID'];
                     echo "<td><form action='' method='POST' id='wepDecide'>";
                     echo "<input type='hidden' name='wID' value='$wId'>";
-                    echo "<input type='Submit' value='$wName' form='wepDecide'>";
+                    echo "<input type='Submit' value='$wName' form='wepDecide' id='caser'>";
                     echo "</form></td>";
                     if($i%10==0){
                         echo "</tr>";
