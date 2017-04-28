@@ -59,7 +59,7 @@ p{
 
 <?php
 
-			$wep_img=$_GET['wep_Img'];
+			
 			$servername = "localhost";
             $username = "root";
             $password = "admin";
@@ -76,6 +76,7 @@ p{
 			$attachment="\\";	
 			$newstring = str_replace($char, $char.$attachment, $string);
 			$que="UPDATE Extra set wep_Img='$newstring' where wep_ID="WP00$i"";
+			echo "Hello executing $i";
 			}
 ?>
 
