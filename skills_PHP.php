@@ -79,8 +79,8 @@ p{
 				$skill_description=$row['Skill_Description'];
 				$image=$row['Image'];
 				
-				$description[j]=$row['Description'];
-				$modification[j]=$row['Modification'];
+				$description[$j]=$row['Description'];
+				$modification[$j]=$row['Modification'];
 			}
 			}
 			else if($sig=='T'){
