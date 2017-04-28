@@ -8,13 +8,14 @@
         <link rel="stylesheet" href="CSS\wep.css">
     </head>
     <body class="parallax1">
+      <?php require 'FinalScripts/gear_connect.php'; ?>
         <div class="wrapper">
           <div class="row">
               <div class="col-md-1"></div>
               <div class="col-md-10">
                 <div class="card">
                   <div class="card-block">
-                  <center><p class="crd-h1">Minor attributes</p></center>
+                  <center><p class="crd-h1"> gear</p></center>
                   </div>
                 </div>
               </div>
