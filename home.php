@@ -39,7 +39,7 @@
       <ul  id="navbtns">
         <li><a href="" >Button 3</a></li>
         <li><a href="">Button 2</a></li>
-        <li><a href="" class="active">Button 1</a></li>
+        <li><a href="" class="activenav">Button 1</a></li>
       </ul>
   </navbar>
 <br><br>
