@@ -113,7 +113,7 @@
                                                     echo "<li> Muzzle Small </li>"; 
                                                 }
                                                 if($wMuzlg=='T'){
-                                                    echo "<li> Muzzle Small </li>"; 
+                                                    echo "<li> Muzzle Large </li>"; 
                                                 }
                                             }    
                                         echo "</ul>";
