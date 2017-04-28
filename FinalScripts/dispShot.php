@@ -20,7 +20,7 @@
                     echo "<input type='hidden' name='wID' value='$wId'>";
                     echo "<input type='Submit' class='caser' value='$wName' form='wepDecide'>";
                     echo "</form></td>";
-                    if($i%10==0){
+                    if($i%3==0){
                         echo "</tr>";
                         echo "<tr>";                        
                     }
