@@ -39,7 +39,7 @@
                 $wBmax=$row['wep_Bmax'];
                 $wType=$row['wep_Type'];
                 $wRPM=$row['wep_RPM'];
-                $wMgsi=$row['wep_Mgsi'];
+                $wMgsi=$row['wep_MgSi'];
                 $wRng=$row['wep_Rng'];
                 $wRld=$row['wep_Rld'];
                 $wHsd=$row['wep_Hsd'];
@@ -50,7 +50,7 @@
                 $wMag=$row['Mag'];
                 $wMuzsm=$row['Muz_sm'];
                 $wMuzlg=$row['Muz_lg'];
-                $talId=$row['tal_Id'];
+                $talId=$row['tal_ID'];
                 $talName=$row['tal_Name'];
                 $talDesc=$row['tal_Desc'];
                 $AR=$row['AR'];
@@ -59,6 +59,8 @@
                 $MMR=$row['MMR'];
                 $Shotgun=$row['Shotgun'];
                 $Sidearm=$row['Sidearm'];
+                $tals="SELECT tal_Name, tal_Desc FROM wepTal WHERE $wType='T'";
+                $talz = mysqli_query($conn, $tals) OR die("".mysqli_error($conn));
                 echo "<div class=\"wrapper\">";
                     echo "<div class=\"row\">";
                         echo "<div class=\"col-md-6 col-md-offset-1\">";
@@ -88,7 +90,34 @@
                             echo "<div class=\"card\">";
                                 echo "<div class=\"card-block\">";      
                                     echo "<p class=\"crd-h1\">Available Mod Slots</p>";
-                                    
+                                        echo"<ul>";
+                                            echo "<li> Skin </li>";
+                                            if($wOpticssm=='F' && $wOpticslg=='F' && $wUndsm=='F' && $wUndlg=='F' && $wMag=='F' && $wMuzsm=='F' && $wMuzlg=='F'){
+                                            }
+                                            else{
+                                                if($wOpticssm=='T'){
+                                                    echo "<li> Optics Small </li>"; 
+                                                } 
+                                                if($wOpticslg=='T'){
+                                                    echo "<li> Optics Large </li>"; 
+                                                }
+                                                if($wUndlg=='T'){
+                                                    echo "<li> Underbarrel Large </li>"; 
+                                                }
+                                                if($wUndsm=='T'){
+                                                    echo "<li> Underbarrel Small </li>"; 
+                                                }
+                                                if($wMag=='T'){
+                                                    echo "<li> Magazine </li>"; 
+                                                }
+                                                if($wMuzsm=='T'){
+                                                    echo "<li> Muzzle Small </li>"; 
+                                                }
+                                                if($wMuzlg=='T'){
+                                                    echo "<li> Muzzle Large </li>"; 
+                                                }
+                                            }    
+                                        echo "</ul>";
                                 echo "</div>";
                             echo "</div>";
                         echo "</div>";
@@ -98,7 +127,10 @@
                             echo "<div class=\"card\">";
                                 echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Stats</p>";
-
+                                    echo "<table class=\"statTbl\" border=\"1\" style='table-layout: fixed; text-align:center;width:100%;font-size: 20px;'>";
+                                        echo "<tr style=\"font-weight: Bold;\"><td>Weapon Type</td><td>RPM</td><td>Magazine Size</td><td>Optimal Range</td><td>Reload Speed</td><td>Headshot Multiplier</td></tr>";
+                                        echo "<tr><td>$wType</td><td>$wRPM</td><td>$wMgsi</td><td>$wRng</td><td>$wRld</td><td>$wHsd</td></tr>";
+                                    echo "</table>";
                                 echo "</div>";
                             echo "</div>";
                         echo "</div>";
@@ -108,7 +140,14 @@
                             echo "<div class=\"card\">";
                                 echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Talents</p>";
-
+                                    echo "<table class=\"statTbl\" border=\"1\" style='width:100%;'>";
+                                    echo "<tr style=\"font-weight: Bold;\"><td>Talent Name</td><td>Description</td>";                                    
+                                    while($row = mysqli_fetch_assoc($talz)){
+                                        $nm= $row['tal_Name'];
+                                        $de= $row['tal_Desc'];
+                                        echo "<tr><td>$nm</td><td>$de</td></tr>";
+                                    }
+                                    echo "</table>";
                                 echo "</div>";
                             echo "</div>";
                         echo "</div>";  
