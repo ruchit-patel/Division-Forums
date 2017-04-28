@@ -45,6 +45,16 @@ p{
 			ini_set('display_errors', 1);
 			$skill_id=$_GET['skill_id'];
 			$category_type=$_GET['category_type'];
+			$tbl;
+			if($category_type=='Medical Skills'){
+				$tbl="Medical";
+			}
+			else if($category_type=='Tech Skills'){
+				$tbl="Technical";
+			}	
+			else if($category_type=='Security Skills'){
+				$tbl="Security";
+			}
 			$servername = "localhost";
             $username = "root";
             $password = "admin";
