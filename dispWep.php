@@ -9,7 +9,6 @@
                 die("Connection failed: " . mysqli_connect_error());
             }
             $qur="SELECT wep_ID, wep_Name FROM wepMain";
-            if (mysqli_query($conn, $qur)) {
                 echo "<table>";
                 echo "<tr>";
                 $i=1;
@@ -29,8 +28,6 @@
                 }
                 echo "</tr>";
                 echo "</table>";
-            } else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
+            
             mysqli_close($conn);
 ?>
