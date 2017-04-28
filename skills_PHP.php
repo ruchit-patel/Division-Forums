@@ -59,9 +59,7 @@ p{
 			$result=mysqli_query($conn,$sql) OR DIE ("".mysqli_error($conn));
 			$row=mysqli_fetch_assoc($result);
 			
-			$skill_id=$row['Skill_id'];
 			$name=$row['Name'];
-			$category_type=$row['Category_Type'];
 			$skill_description=$row['Skill_Description'];
 			$image=$row['Image'];
 			
