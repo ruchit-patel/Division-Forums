@@ -46,9 +46,9 @@
 <div class="row">
   <div class="col-md-1"></div>
   <div class="col-md-7">
-<div class="container">
-  <div id="myCarousel" class="carousel slide" data-interval="false">
-  <!--div id="myCarousel" class="carousel slide" data-ride="carousel"-->
+    <div class="container">
+  <h2>Carousel Example</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -59,15 +59,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="Images/slide1.jpg" alt="Los Angeles" style="width:90%;">
+        <img src="Images/slide1.jpg.jpg" alt="Los Angeles" style="width:100%;">
       </div>
 
       <div class="item">
-      <iframe width="1030" height="700" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
+        <img src="Images/slide2.jpeg" alt="Chicago" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="Images/slide3.jpg" alt="New york" style="width:90%;">
+        <img src="Images/slide3.jpg" alt="New york" style="width:100%;">
       </div>
     </div>
 
@@ -82,6 +82,8 @@
     </a>
   </div>
 </div>
+  </div>
+
 </div>
 <div class="col-md-1"></div>
 <div class="col-md-2">

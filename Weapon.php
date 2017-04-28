@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top:5px;">
+            <div class="row" style="margin-top:15px;">
                 <div class="col-md-6 col-md-offset-1">
                     <div class="card">
                         <div class="card-block">
@@ -40,9 +40,32 @@
                 </div>  
                 <div class="col-md-4">
                     <div class="card">
-                        
+                        <div class="card-block">      
+                            <p class="crd-h1">Possible Mods</p>
+
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Stats</p>
+
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                             <p class="crd-h1">Talents</p>
+
+                        </div>
+                    </div>
+                </div>  
             </div>
         </div>
     </body>
