@@ -144,7 +144,7 @@
 
       <div class="col-md-5 col-md-offset-1">
         <div class="card" style="min-height:600px;">
-          <img src="Images\Homepage_Images\wep.jpg" width="100%">
+          <img src="Images\Homepage_Images\wep.jpg" width="100%" style="min-height:310px;">
 
           <div class="card-block">
 
@@ -160,7 +160,7 @@
 
           <div class="row" style="background-color:black;"> <br> <br> <br> </div>
 
-          <img src="Images\Homepage_Images\gear.jpg" width="100%">
+          <img src="Images\Homepage_Images\gear.jpg" width="100%" style="min-height:310px;">
 
 
           <div class="card-block">
@@ -195,7 +195,7 @@
       <div class="col-md-5 col-md-offset-0">
         <div class="card" style="min-height:250px;">
 
-          <img src="Images\Homepage_Images\skills.jpg" width="100%">
+          <img src="Images\Homepage_Images\skills.jpg" width="100%" style="min-height:310px;">
 
           <div class="card-block">
 
@@ -209,7 +209,7 @@
 
           <div class="row" style="background-color:black;"> <br> <br> <br> </div>
 
-          <img src="Images\Homepage_Images\gear_mods.jpg" width="100%">
+          <img src="Images\Homepage_Images\gear_mods.jpg" width="100%" style="min-height:310px;">
 
           <div class="card-block">
 
