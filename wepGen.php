@@ -28,7 +28,20 @@
                                     <li><a href="#">Light Machine Guns</a></li>
                                     <li><a href="#">Sidearms</a></li>
                                 </ul>
-                                <p>Players are able to customize their weapons to make them unique and personal to their agent. Guns can be customized with a variety of attachments which are referred to as modifications, such as scopes, grips, sights, magazines, muzzle attachments and weapon skins. Weapons also have a different rarity, Such as:</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div card="card">
+                        <img src="Images\WepImgs\wepTypes.png" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                             <p>Players are able to customize their weapons to make them unique and personal to their agent. Guns can be customized with a variety of attachments which are referred to as modifications, such as scopes, grips, sights, magazines, muzzle attachments and weapon skins. Weapons also have a different rarity, Such as:</p>
                                 <ul>
                                     <li><l style="color: #9E9E9E;">Worn</l></li>
                                     <li><l style="color: #8BC34A;">Standard</l></li>
@@ -37,6 +50,17 @@
                                     <li><l style="color: #FFD600;">High-end</l></li>
                                     <li><l style="color: #D32F2F;">Exotic</l></li> 
                                 </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                             <?php
+                                include 'dispWep.php';
+                             ?>
                         </div>
                     </div>
                 </div>
