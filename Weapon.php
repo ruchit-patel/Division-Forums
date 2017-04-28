@@ -60,6 +60,7 @@
                 $Shotgun=$row['Shotgun'];
                 $Sidearm=$row['Sidearm'];
                 $tals="SELECT tal_Name, tal_Desc FROM wepTal WHERE $wType='T'";
+                $talz = mysqli_query($conn, $tals) OR die("".mysqli_error($conn));
                 echo "<div class=\"wrapper\">";
                     echo "<div class=\"row\">";
                         echo "<div class=\"col-md-6 col-md-offset-1\">";
@@ -141,7 +142,7 @@
                                     echo "<p class=\"crd-h1\">Talents</p>";
                                     echo "<table class=\"statsTbl\" border=\"1\" style='width:100%;'>";
                                     echo "<tr style=\"font-weight: Bold;\"><td>Talent Name</td><td>Description</td>";                                    
-                                    while($row = mysqli_fetch_assoc($tals)){
+                                    while($row = mysqli_fetch_assoc($talz)){
                                         $nm= $row['tal_Name'];
                                         $de= $row['tal_Desc'];
                                         echo "<tr><td>$nm</td><td>$de</td></tr>";
