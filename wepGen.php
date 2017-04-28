@@ -125,7 +125,7 @@
                             <p>Submachine Guns are used for close-range engagements, where their high rate of fire would outperform other weapons. They are also easy to handle due to light recoil and high stability.Submachine guns are high rate of fire, low damage weapons. They have rather low range, but have rather good handling traits.SMGs also have a in-class bonus of increased Critical Hit Chance, increasing chances to land critical hits and deal more damage towards enemies.</p>
                             <p>The Submachine Guns in Tom Clancy's The Division are:</p>
                              <?php
-                                require 'FinalScripts/dispSide.php';
+                                require 'FinalScripts/dispSMG.php';
                              ?>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                             <p>Each pistol will come with two talents, with the second talent being rolled with Expert, increasing damage towards enemies at low health.</p>
                             <p>The Sidearms Guns in Tom Clancy's The Division are:</p>
                              <?php
-                                require 'FinalScripts/dispSMG.php';
+                                require 'FinalScripts/dispSide.php';
                              ?>
                         </div>
                     </div>
