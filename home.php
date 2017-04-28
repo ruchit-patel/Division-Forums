@@ -5,19 +5,16 @@
   <title>I.S.A.C's Data Warehouse</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-	<link rel="stylesheet" href="CSS\home.css"
-
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+  <link rel="stylesheet" href="CSS\home.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="CSS\mods.css">
+  <link rel="stylesheet" type="text/css" href="CSS\navbar.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--For font awesome-->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <script>
     (function(d, s, id) {
@@ -29,16 +26,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="CSS\mods.css">
-  <link rel="stylesheet" type="text/css" href="CSS\navbar.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
 </head>
 
 <body style="background-color:black;">
@@ -262,7 +250,7 @@
   <!--General info card ends here-->
 
   </div class="row"><br><br><br></div>
-  </div class="row">
+  <div class="row">
   <div class="col-md-1">
   </div>
   <div class="col-md-4">
@@ -282,7 +270,7 @@
   </div>
   <div class="col-md-1">
   </div>
-  </div>
+</div><br><br><br>
 <?php include 'footer.php'; ?>
 </body>
 
