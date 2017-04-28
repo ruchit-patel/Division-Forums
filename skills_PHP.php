@@ -64,8 +64,8 @@ p{
 			$name;
 			$skill_description;
 			$image;
-			$description;
-			$modification;
+			$description=array();
+			$modification=array();
             // Check connection
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
@@ -73,14 +73,15 @@ p{
 			if($sig=='F'){
 			$sql="SELECT * FROM Skills NATURAL JOIN $tbl where Skill_id='$skill_id' AND Category_Type='$category_type'";
 			$result=mysqli_query($conn,$sql) OR DIE ("".mysqli_error($conn));
-			$row=mysqli_fetch_assoc($result);
-			
-			$name=$row['Name'];
-			$skill_description=$row['Skill_Description'];
-			$image=$row['Image'];
-			
-			$description=$row['Description'];
-			$modification=$row['Modification'];
+			for($j=0;($row=mysqli_fetch_assoc($result));$j++)
+			{
+				$name=$row['Name'];
+				$skill_description=$row['Skill_Description'];
+				$image=$row['Image'];
+				
+				$description[j]=$row['Description'];
+				$modification[j]=$row['Modification'];
+			}
 			}
 			else if($sig=='T'){
 				$sql="SELECT * FROM Skills where Skill_id='$skill_id'";
@@ -139,7 +140,7 @@ echo "<div class=\"wrapper\">";
 		echo "<div class=\"col-md-3\"> <!--fitting first mod card-->";
 			echo "<div class=\"card\">";
                         echo "<div class=\"card-block\">";
-                            echo "<p class=\"crd-h1\"> $modification </p>";
+                            echo "<p class=\"crd-h1\"> $modification[0] </p>";
     
 
     
@@ -149,7 +150,7 @@ echo "<div class=\"wrapper\">";
 		
 							echo "<font size=\"3\">"; 
 							echo "<br>
-							<br>  $description
+							<br>  $description[0]
 							</font> ";
 						echo "</div>";
 			echo "</div>";
@@ -163,7 +164,7 @@ echo "<div class=\"wrapper\">";
 			
 			echo "<div class=\"card\">";
                         echo "<div class=\"card-block\">";
-                            echo "<p class=\"crd-h1\"> $modification</p> ";
+                            echo "<p class=\"crd-h1\"> $modification[1]</p> ";
     
 
     
@@ -173,7 +174,7 @@ echo "<div class=\"wrapper\">";
 		
 							echo "<font size=\"3\">"; 
 							echo "<br>
-							<br>  $description ";
+							<br>  $description[1] ";
 							echo "</font>";
 						echo "</div>";
 			echo "</div>";
@@ -187,7 +188,7 @@ echo "<div class=\"wrapper\">";
 
 			echo "<div class=\"card\">";
                         echo "<div class=\"card-block\">";
-                            echo "<p class=\"crd-h1\">$modification</p>";
+                            echo "<p class=\"crd-h1\">$modification[2]</p>";
     
 
     
@@ -197,7 +198,7 @@ echo "<div class=\"wrapper\">";
 		
 							echo "<font size=\"3\">"; 
 							echo "<br>
-							<br>  $description ";
+							<br>  $description[2] ";
 							echo "</font>";
 						echo "</div>";
 			echo "</div>";
@@ -225,7 +226,7 @@ echo "<div class=\"wrapper\"> ";
 	
 			echo "<div class=\"card\">";
                         echo "<div class=\"card-block\">";
-                            echo "<p class=\"crd-h1\">Master: $modification</p> ";
+                            echo "<p class=\"crd-h1\">Master: $modification[3]</p> ";
     
 
     
@@ -234,7 +235,7 @@ echo "<div class=\"wrapper\"> ";
 							// <img src="Images\thedivision_reconpack_final.jpg" height="70%" width="50%" align="center">
 		
 							echo "<font size=\"3\"> 
-							<br>  $description <br> 
+							<br>  $description[3] <br> 
 
 								  
 							</font>";
