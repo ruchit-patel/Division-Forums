@@ -83,7 +83,7 @@ p{
 			$modification=$row['Modification'];
 			}
 			else if($sig=='T'){
-				$sql="SELECT * FROM Skills NATURAL JOIN $tbl where Skill_id='$skill_id'";
+				$sql="SELECT * FROM Skills where Skill_id='$skill_id'";
 				$result=mysqli_query($conn,$sql) OR DIE ("".mysqli_error($conn));
 				$row=mysqli_fetch_assoc($result);
 				$name=$row['Name'];
