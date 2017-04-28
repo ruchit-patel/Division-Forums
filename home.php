@@ -5,19 +5,16 @@
   <title>I.S.A.C's Data Warehouse</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-	<link rel="stylesheet" href="CSS\home.css"
-
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+  <link rel="stylesheet" href="CSS\home.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="CSS\mods.css">
+  <link rel="stylesheet" type="text/css" href="CSS\navbar.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--For font awesome-->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <script>
     (function(d, s, id) {
@@ -29,16 +26,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="CSS\mods.css">
-  <link rel="stylesheet" type="text/css" href="CSS\navbar.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
 </head>
 
 <body style="background-color:black;">
@@ -109,7 +97,13 @@
 
             <p class="crd-h1" style="font-size:30px;">News</p>
               <font size="5">
-          <!--content of General Info -->
+			  <!--content of General Info -->
+			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-259002-16/new-activity-for-our-season-pass-owners"> We come to you today with news on a topic that has generated a lot of discussion in the community: the “monthly events for Season Pass owners”. </a> <br>
+			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-256996-16/state-of-the-game-june-28th-2016"> Underground is now available for Xbox One and PC players. If you haven’t already, make sure you download the patch and let us know what you think! </a> <br>
+			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-254806-16/state-of-the-game-june-9th-2016"> Challenge Mode Clear Sky is now available! Grab your friends, organize your group, and get at it! </a> <br> 
+			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-252565-16/state-of-the-game-may-24th-2016"> We are extremely happy to get the update out there and can’t wait to hear what you think of it! </a> <br>
+			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-288024-16/introducing-agent-highlights"> It's our pleasure to introduce you to the Agent Highlights – a community focused article series to celebrate all kinds of content made by you. </a>
+			  
               </font>
               </div>
               </div>
@@ -262,7 +256,7 @@
   <!--General info card ends here-->
 
   </div class="row"><br><br><br></div>
-  </div class="row">
+  <div class="row">
   <div class="col-md-1">
   </div>
   <div class="col-md-4">
@@ -282,7 +276,7 @@
   </div>
   <div class="col-md-1">
   </div>
-  </div>
+</div><br><br><br>
 <?php include 'footer.php'; ?>
 </body>
 
