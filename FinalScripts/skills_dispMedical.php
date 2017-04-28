@@ -8,7 +8,7 @@
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
             }
-            $qur="SELECT Skill_Id,Name FROM Skills WHERE Category_Type='Medical Skills'";
+            $qur="SELECT Skill_id,Name FROM Skills WHERE Category_Type='Medical Skills'";
                 echo "<table style='table-layout: fixed; text-align:center;width:100%;'>";
                 echo "<tr>";
                 $i=1;
