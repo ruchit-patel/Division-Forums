@@ -95,7 +95,7 @@
   <!--/div-->
   <div class="col-md-1"></div>
   <div class="col-md-2">
-          <div class="card">
+          <div class="card" style="height:100px;">
           <div class="card-block">
 
             <p class="crd-h1" style="font-size:30px;">News</p>
