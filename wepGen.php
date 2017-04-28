@@ -131,6 +131,21 @@
                     </div>
                 </div>
             </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Sidearms</p>
+                            <p>Pistols are short range weapons, and have a lower damage range compared to primary weapons. The weapons differ from their rate of fire, damage, and handling traits. One of the advantages of pistols is that is has unlimited ammo supply.</p>
+                            <p>Each pistol will come with two talents, with the second talent being rolled with Expert, increasing damage towards enemies at low health.</p>
+                            <p>The Sidearms Guns in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispSMG.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
