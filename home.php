@@ -67,15 +67,15 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="Images/slide1.jpg" alt="Los Angeles" style="width:100%;">
+              <img src="Images/Homepage_Images/slideshow_1.jpg" alt="Los Angeles" style="width:100%;">
             </div>
 
             <div class="item">
-              <img src="Images/slide2.jpeg" alt="Chicago" style="width:100%;">
+              <img src="Images/Homepage_Images/slideshow_2.jpg" alt="Chicago" style="width:100%;">
             </div>
 
             <div class="item">
-              <img src="Images/slide3.jpg" alt="New york" style="width:100%;">
+              <img src="Images/Homepage_Images/slideshow_3.jpg" alt="New york" style="width:100%;">
             </div>
           </div>
 
