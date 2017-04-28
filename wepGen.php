@@ -21,12 +21,12 @@
                             <p class="crd-h1">WEAPONS</p>
                                 <p>Weapons in Tom Clancy's The Division are separated into 6 unique classes. They are:</p>
                                 <ul>
-                                    <li><a href="#">Shotguns</a></li>
-                                    <li><a href="#">Submachine Guns</a></li>
-                                    <li><a href="#">Assault Rifles</a></li>
-                                    <li><a href="#">Marksman Rifles</a></li>
-                                    <li><a href="#">Light Machine Guns</a></li>
-                                    <li><a href="#">Sidearms</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Shotguns</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Submachine Guns</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Assault Rifles</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Marksman Rifles</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Light Machine Guns</a></li>
+                                    <li><a href="#" style="color: #ff8f00;">Sidearms</a></li>
                                 </ul>
                         </div>
                     </div>
@@ -112,6 +112,20 @@
                             <p>The Marksman Rifles in Tom Clancy's The Division are:</p>
                              <?php
                                 require 'FinalScripts/dispMMR.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Submachine Guns</p>
+                            <p>Submachine Guns are used for close-range engagements, where their high rate of fire would outperform other weapons. They are also easy to handle due to light recoil and high stability.Submachine guns are high rate of fire, low damage weapons. They have rather low range, but have rather good handling traits.SMGs also have a in-class bonus of increased Critical Hit Chance, increasing chances to land critical hits and deal more damage towards enemies.</p>
+                            <p>The Submachine Guns in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispSMG.php';
                              ?>
                         </div>
                     </div>
