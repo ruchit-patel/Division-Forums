@@ -126,8 +126,8 @@
                                 echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Stats</p>";
                                     echo "<table class=\"statTbl\" border=\"1\" style='table-layout: fixed; text-align:center;width:100%;font-size: 20px;'>";
-                                        echo "<tr cellpadding=\"10\"><td>Weapon Type</td><td>RPM</td><td>Magazine Size</td><td>Optimal Range</td><td>Reload Speed</td><td>Headshot Multiplier</td></tr>";
-                                        echo "<tr cellpadding=\"10\"><td>$wType</td><td>$wRPM</td><td>$wMgsi</td><td>$wRng</td><td>$wRld</td><td>$wHsd</td></tr>";
+                                        echo "<tr><td>Weapon Type</td><td>RPM</td><td>Magazine Size</td><td>Optimal Range</td><td>Reload Speed</td><td>Headshot Multiplier</td></tr>";
+                                        echo "<tr><td>$wType</td><td>$wRPM</td><td>$wMgsi</td><td>$wRng</td><td>$wRld</td><td>$wHsd</td></tr>";
                                     echo "</table>";
                                 echo "</div>";
                             echo "</div>";
