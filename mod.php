@@ -11,7 +11,7 @@ if (!$conn) {
     $id = mysqli_real_escape_string($conn,$_POST['mod_id']);
     $mod = mysqli_real_escape_string($conn,$_POST['modname']);
 
-  $sql = "INSERT INTO gearMods values ('$des','$mod')";
+  $sql = "INSERT INTO gearMods values ('$id','$mod')";
 
   if (mysqli_query($conn, $sql)) {
       echo "New record created successfully";
