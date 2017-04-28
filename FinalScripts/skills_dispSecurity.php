@@ -8,13 +8,13 @@
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
             }
-             $qur="SELECT Skill_Id,Name FROM Skills WHERE Skill_Id>108";
+             $qur="SELECT Skill_Id,Name FROM Skills WHERE Category_Type='Security_Skills'";
                 echo "<table style='table-layout: fixed; text-align:center;width:100%;'>";
                 echo "<tr>";
                 $i=1;
                 $result = mysqli_query($conn, $qur) OR die("".mysqli_error($conn));
                 while($row = mysqli_fetch_assoc($result)){
-                    $skill_id=$row['Skill_Id'];
+                    $skill_id=$row['Skill_id'];
                     $name=$row['name'];
                     echo "<td><form action='' method='POST' id='wepDecide'>";
                     echo "<input type='hidden' name='skill_id' value='$skill_id'>";
