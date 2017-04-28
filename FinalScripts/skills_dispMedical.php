@@ -16,10 +16,10 @@
                 while($row = mysqli_fetch_assoc($result)){
                     $skill_id=$row['Skill_id'];
                     $name=$row['Name'];
-                    echo "<td><form action='skills_PHP.php' method='POST' id='wepDecide'>";
+                    echo "<td><form action='skills_PHP.php' method='POST'>";
                     echo "<input type='hidden' name='skill_id' value='$skill_id'>";
 					echo "<input type='hidden' name='category_type' value='Medical Skills'>";
-                    echo "<input type='Submit' class='caserMedical' value='$name' form='wepDecide'>";
+                    echo "<input type='Submit' class='caserMedical' value='$name'>";
                     echo "</form></td>";
                     if($i%3==0){
                         echo "</tr>";
