@@ -27,7 +27,7 @@
 			//$attachment="\\";	
 			$newstring = addcslashes($string,"s");
 			$que="UPDATE Extra set wep_Img='$newstring' where wep_ID=\"WP00$i\"";
-			echo "Hello executing $i";
+			echo "$newstring";
 			}
 			
 ?>
