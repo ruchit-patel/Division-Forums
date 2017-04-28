@@ -87,14 +87,17 @@
               <!--content of Tech Info Skills -->
 			  The Tech Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Subway Morgue, in which you rescue engineer Paul Rhodes who runs the Tech Wing. As with all three wings there are 10 available upgrades available. The Tech Wing gives access to the Skills Turret, Seeker Mine, and Tactical Link; as well as the already available Sticky Bomb. <br> 
 			  Tech skills give agents an offensive edge. <br>
+			  <?php
+                                require 'FinalScripts/skills_dispTechnical.php';
+               ?>
 
 
-			<ul>
+			<!--ul>
 			<li> <a href="">Sticky Bomb </a> <br> </li>
 			<li> <a href="">Turret </a> <br> </li>
 			<li> <a href="">Seeker Mine </a> <br> </li>
 			<li> <a href="">Tactical Link </a> </li>
-			</ul>
+			</ul-->
             </font>
           </div>
         </div>
@@ -116,16 +119,18 @@
 			  The Security Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Lincoln Tunnel Checkpoint, in which you rescue Captain Roy Benitez who runs the Security Wing. As with all three wings there are 10 available upgrades available. The Security Wing gives access to the Skills Smart Cover, Mobile Cover, and Survivor Link; as well as the already available Ballistic Shield. <br> 
 			  Security skills are focused on defensive capabilities. <br>
 
+			  <?php
+                                require 'FinalScripts/skills_dispSecurity.php';
+               ?>
 
 
 
-
-			<ul>
+			<!--ul>
 			<li> <a href="">Ballistic Shield </a> <br> </li>
 			<li> <a href="">Smart Cover </a> <br> </li>
 			<li> <a href="">Mobile Cover </a> <br> </li>
 			<li> <a href="">Survivor Link </a> </li>
-			</ul>
+			</ul-->
             </font>
           </div>
         </div>
