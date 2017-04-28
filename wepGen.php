@@ -22,11 +22,11 @@
                                 <p>Weapons in Tom Clancy's The Division are separated into 6 unique classes. They are:</p>
                                 <ul>
                                     <li><a href="#Shot" style="color: #ff8f00;">Shotguns</a></li>
-                                    <li><a href="#" style="color: #ff8f00;">Submachine Guns</a></li>
-                                    <li><a href="#" style="color: #ff8f00;">Assault Rifles</a></li>
-                                    <li><a href="#" style="color: #ff8f00;">Marksman Rifles</a></li>
-                                    <li><a href="#" style="color: #ff8f00;">Light Machine Guns</a></li>
-                                    <li><a href="#" style="color: #ff8f00;">Sidearms</a></li>
+                                    <li><a href="#SMG" style="color: #ff8f00;">Submachine Guns</a></li>
+                                    <li><a href="#AR" style="color: #ff8f00;">Assault Rifles</a></li>
+                                    <li><a href="#MMR" style="color: #ff8f00;">Marksman Rifles</a></li>
+                                    <li><a href="#LMG" style="color: #ff8f00;">Light Machine Guns</a></li>
+                                    <li><a href="#Side" style="color: #ff8f00;">Sidearms</a></li>
                                 </ul>
                         </div>
                     </div>
@@ -72,6 +72,7 @@
                     </div>
                 </div>
             </div>
+            <span class="anchor" id="AR"></span>
             <div class="row" style="margin-top:15px;">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
@@ -89,6 +90,7 @@
                     </div>
                 </div>
             </div>
+            <span class="anchor" id="LMG"></span>
             <div class="row" style="margin-top:15px;">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
@@ -107,6 +109,7 @@
                     </div>
                 </div>
             </div>
+            <span class="anchor" id="MMR"></span>
             <div class="row" style="margin-top:15px;">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
@@ -122,6 +125,7 @@
                     </div>
                 </div>
             </div>
+            <span class="anchor" id="SMG"></span>
             <div class="row" style="margin-top:15px;">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
@@ -137,6 +141,7 @@
                     </div>
                 </div>
             </div>
+            <span class="anchor" id="Side"></span>
             <div class="row" style="margin-top:15px;">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
