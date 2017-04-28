@@ -16,7 +16,7 @@
                 while($row = mysqli_fetch_assoc($result)){
                     $skill_id=$row['Skill_id'];
                     $name=$row['Name'];
-                    echo "<td><form action='skills_PHP.php' method='POST'>";
+                    echo "<td><form action='skills_PHP.php' method='GET'>";
                     echo "<input type='hidden' name='skill_id' value='$skill_id'>";
 					echo "<input type='hidden' name='category_type' value='Security Skills'>";
                     echo "<input type='Submit' class='caserSecurity' value='$name'>";
