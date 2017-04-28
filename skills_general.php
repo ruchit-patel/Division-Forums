@@ -30,7 +30,7 @@
           <div class="card-block">
 
             <p class="crd-h1" style="font-size:30px;">General Info</p>
-            <font size="5">
+            
               <!--content of General Info Skills -->
 			  <p>In Tom Clancy's The Division, players are able to use various different skills to gain an advantage over others in combat. Skills are unlocked as the player upgrades the Base of Operations. So the skills are divided up into three groups; Medical, Tech, and Security. Players are able to choose what skills they wish to focus on or specialize in. These skills are active abilities used by the player which then recharge before the player can use them again.There are 2 slots for skills and 1 slot for signature skill.</p>
 			  
@@ -40,7 +40,7 @@
                     <li><a href="#SMG" style="color: #FFA000;">Technical</a></li>
                     <li><a href="#AR" style="color: #2196F3;">Security</a></li>
                 </ul>
-            </font>
+            
           </div>
         </div>
 	</div>
