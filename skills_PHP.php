@@ -79,8 +79,8 @@ p{
 				$skill_description=$row['Skill_Description'];
 				$image=$row['Image'];
 				
-				$description[j]=$row['Description'];
-				$modification[j]=$row['Modification'];
+				$description[$j]=$row['Description'];
+				$modification[$j]=$row['Modification'];
 			}
 			}
 			else if($sig=='T'){
@@ -90,8 +90,8 @@ p{
 				$name=$row['Name'];
 				$skill_description=$row['Skill_Description'];
 				$image=$row['Image'];
-				$description=NULL;
-				$modification="No Mods for Signature Skills";
+				$description[0]=NULL;
+				$modification[0]=NULL;
 			}
 			
 			
@@ -130,7 +130,7 @@ echo "</div> <!--General info card ends here-->";
 echo "<div class=\"row\">";
 echo "<br> <br> <br> <br>";
 echo "</div>";
-
+if($description[0]!=NULL && $modification[0]!=NULL){
 echo "<div class=\"wrapper\">";
 	echo "<div class=\"row\"> <!--row for fitting three cards for mods-->";
 
@@ -249,6 +249,7 @@ echo "<div class=\"wrapper\"> ";
 
 	echo "</div> <!--closing master mod row-->";
 echo "</div> <!--closing master mod wrapper-->";	
+}
 
 ?>
 
