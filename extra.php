@@ -22,7 +22,7 @@
 			}	
 			for($i=01;$i<12;$i++)
 			{	
-			$string="SELET wep_Img FROM Extra where wep_ID=\"WP00$i\"";
+			$string="SELET wep_Img FROM Extra where wep_ID="WP00$i"";
 			//$char="s";
 			//$attachment="\\";	
 			
