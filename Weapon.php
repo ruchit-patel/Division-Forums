@@ -126,7 +126,10 @@
                             echo "<div class=\"card\">";
                                 echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Stats</p>";
-
+                                    echo "<table>";
+                                        echo "<tr><td>Weapon Type</td><td>RPM</td><td>Magazine Size</td><td>Optimal Range</td><td>Reload Speed</td><td>Headshot Multiplier</td></tr>";
+                                        echo "<tr><td>$wType</td><td>$wRPM</td><td>$wMgsi</td><td>$wRng</td><td>$wRld</td><td>$wHsd</td></tr>";
+                                    echo "</table>";
                                 echo "</div>";
                             echo "</div>";
                         echo "</div>";
