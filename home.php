@@ -5,19 +5,19 @@
   <title>I.S.A.C's Data Warehouse</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
-  
+
+
 	<link rel="stylesheet" href="CSS\home.css"
-	
+
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-=======
+
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
->>>>>>> 9cf6d66d8de8e16574af02c812a84c602356d1c9
+
 
   <script>
     (function(d, s, id) {
@@ -54,20 +54,25 @@
     <br><br><br>
     <div class="col-md-1"></div>
     <div class="col-md-7">
-      <div class="container">
+      <!--div class="container"-->
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
+<<<<<<< HEAD
               <img src="Images/Homepage_Images/slideshow_1.jpg" alt="Los Angeles" style="width:100%;">
+=======
+              <img src="Images/slide1.jpg" alt="Los Angeles" style="width:110%;">
+>>>>>>> d3d5f84417a6be0972bdb5ffffae3f48b291669e
             </div>
 
             <div class="item">
@@ -77,25 +82,37 @@
             <div class="item">
               <img src="Images/Homepage_Images/slideshow_3.jpg" alt="New york" style="width:100%;">
             </div>
+
+            <div class="item">
+              <iframe  width="850" height="450" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
 
           <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <a class="left carousel-control" href="#myCarousel" data-slide="next">
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <a class="right carousel-control" href="#myCarousel" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
+      <!--/div-->
     </div>
 
-  </div>
+  <!--/div-->
   <div class="col-md-1"></div>
   <div class="col-md-2">
-    News
+          <div class="card" style="height:470px; width:300px; margin-left:-75px; ">
+          <div class="card-block">
+
+            <p class="crd-h1" style="font-size:30px;">News</p>
+              <font size="5">
+          <!--content of General Info -->
+              </font>
+              </div>
+              </div>
   </div>
   <div class="col-md-1"></div>
   </div>
@@ -266,7 +283,7 @@
   <div class="col-md-1">
   </div>
   </div>
-
+<?php include 'footer.php'; ?>
 </body>
 
 </html>

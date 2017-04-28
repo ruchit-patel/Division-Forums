@@ -61,8 +61,8 @@
                             <p class="crd-h1">Shotguns</p>
                             <p>Shotguns are best used for combating enemies at close range, where their buckshot spread can hit the target effectively. Shotguns fire a variety of shells, most common types are buckshot and slugs.</p>
                             <p>Shotguns are categorized into either: Pump-action, semi-automatic, or automatic.</p>
-                            <p>The M870 is the only pump-action shotgun, having high damage at a cost of a slow rate of fire and slow reload speed. The SASG-12 is a semi-automatic shotgun, having a high rate of fire, and fast reload speed, at a cost of moderate damage. The Showstopper is the only automatic shotgun, having a high rate of rate of fire at a cost of low stability and damage.</p>
-                            <p>Shotguns have a bonus talent of increased stagger towards enemies. When an NPC gets hit by a shotgun, they will have an increased chance to stagger, making them unable to fire, and expose themselves for a short time. When using it in the Dark Zone against players, their aim will flinch, making their reticle sway off target.</p>
+                            <p>The M870 is the only pump-action shotgun, having high damage at a cost of a slow rate of fire and slow reload speed. The SASG-12 is a semi-automatic shotgun, having a high rate of fire, and fast reload speed, at a cost of moderate damage. The Showstopper is the only automatic shotgun, having a high rate of rate of fire at a cost of low stability and damage.Shotguns have a bonus talent of increased stagger towards enemies. When an NPC gets hit by a shotgun, they will have an increased chance to stagger, making them unable to fire, and expose themselves for a short time. When using it in the Dark Zone against players, their aim will flinch, making their reticle sway off target.</p>
+                            <p>The Shotguns in Tom Clancy's The Division are:
                              <?php
                                 require 'FinalScripts/dispShot.php';
                              ?>
