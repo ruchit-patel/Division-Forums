@@ -5,7 +5,19 @@
   <title>I.S.A.C's Data Warehouse</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
+  
+	<link rel="stylesheet" href="CSS\home.css"
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+=======
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+>>>>>>> 9cf6d66d8de8e16574af02c812a84c602356d1c9
 
   <script>
     (function(d, s, id) {
