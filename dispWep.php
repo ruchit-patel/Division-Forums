@@ -21,7 +21,7 @@
                     echo "<input type='Submit' value='$wName' form='wepDecide'>";
                     echo "</form></td>";
                     $i++;
-                    if(i%5==0){
+                    if($i%10==0){
                         echo "</tr>";
                         echo "<tr>";                        
                     }
