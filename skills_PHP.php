@@ -65,7 +65,7 @@ p{
                 die("Connection failed: " . mysqli_connect_error());
             }
 			
-			$sql="SELECT * FROM Skills NATURAL JOIN Medical where Skill_id='$skill_id' AND Category_Type='$category_type'";
+			$sql="SELECT * FROM Skills NATURAL JOIN $tbl where Skill_id='$skill_id' AND Category_Type='$category_type'";
 			$result=mysqli_query($conn,$sql) OR DIE ("".mysqli_error($conn));
 			$row=mysqli_fetch_assoc($result);
 			
