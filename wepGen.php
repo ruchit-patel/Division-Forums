@@ -90,7 +90,7 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
                         <div class="card-block">
-                            <p class="crd-h1">Light Machine Gun</p>
+                            <p class="crd-h1">Light Machine Guns</p>
                             <p>Light Machine Guns are intended to be use at a mid-long range, supporting other players with accurate fire. LMGs have an increased suppression value, able to keep enemies in cover and unable to attack or deploy abilities.
                                 LMGs are quite hard to handle when out of cover, having low accuracy and stability. However, prolong amounts firing will increase accuracy and stability to almost the maximum possible.</p>
                             <p>LMGs can be divided into two categories: belt-fed, and magazine fed.The belt-fed weapons have large magazines, high damage and decent rate of fire, but suffers from longer reload times.Magazine fed weapons have a higher rate of fire, but at a cost of a lower magazine size and lower damage.Light Machine Guns have a in-class bonus of bonus damage to enemies out of cover, increasing damage towards enemies that are not taking cover.</p>
@@ -98,6 +98,19 @@
                             <p>The Light Machine Gun in Tom Clancy's The Division are:</p>
                              <?php
                                 require 'FinalScripts/dispLMG.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p>Marksman Rifles are separated into two types: bolt-action and semi-automatic. Bolt-Action rifles have a slower rate of fire, but have much higher damage. Semi-Automatic MMRs on the other hand have a faster rate of fire at the cost of damage.Marksman Rifles are accurate, but only from a stationary position. If the player moves, the reticle will bloom to almost max. When aiming the weapon, the reticle takes time to achieve maximum accuracy.In Tom Clancy's The Division, Marksman Rifles do a base +110% damage on headshots. In addition Marksman Rifles gain an additional 140-170% extra Headshot Damage as a bonus.</p>
+                            <p>The Marksman Rifles in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispMMR.php';
                              ?>
                         </div>
                     </div>
