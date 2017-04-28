@@ -234,7 +234,7 @@
             <font size="5">
               <!--content of Weapon -->
               <!--img src="Images\Homepage_Images\gear_mods.jpg" class="w3-circle" width="100%">
-							<!--info-->A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
+							<!--info-->Mods in The Division can be applied to your Gear to improve it's Attributes. They can be crafted, acquired as drops from Enemies, or purchased from Vendors.Only some gear has a mod slot, just like weapons have mod slots, and you add gear mod to your gear in the same method as you do in weapon mods.
             </font>
           </div>
 
