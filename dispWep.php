@@ -18,7 +18,7 @@
                     $wId=$row['wep_ID'];
                     echo "<form action='' method='POST' id='wepDecide'>";
                     echo "<input type='hidden' name='wID' value=''>";
-                    echo "<td> <button type='Submit' value='$wName form='wepDecide'><td>";
+                    echo "<td> <button type='Submit' value='$wName' form='wepDecide'><td>";
                     echo "</form>";
                     $i++;
                     if(i%5==0){
