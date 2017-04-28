@@ -107,6 +107,7 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
                         <div class="card-block">
+                            <p class="crd-h1">Marksman Rifles</p>
                             <p>Marksman Rifles are separated into two types: bolt-action and semi-automatic. Bolt-Action rifles have a slower rate of fire, but have much higher damage. Semi-Automatic MMRs on the other hand have a faster rate of fire at the cost of damage.Marksman Rifles are accurate, but only from a stationary position. If the player moves, the reticle will bloom to almost max. When aiming the weapon, the reticle takes time to achieve maximum accuracy.In Tom Clancy's The Division, Marksman Rifles do a base +110% damage on headshots. In addition Marksman Rifles gain an additional 140-170% extra Headshot Damage as a bonus.</p>
                             <p>The Marksman Rifles in Tom Clancy's The Division are:</p>
                              <?php
