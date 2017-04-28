@@ -57,15 +57,16 @@ p{
 			
 			$sql="SELECT * FROM Skills NATURAL JOIN Medical where Skill_id='$skill_id' AND Category_Type='$category_type'";
 			$result=mysqli_query($conn,$sql) OR DIE ("".mysqli_error($conn));
+			$row=mysqli_fetch_assoc($result);
 			
-			$skill_id=$result['Skill_id'];
-			$name=$result['Name'];
-			$category_type=$result['Category_Type'];
-			$skill_description=$result['Skill_Description'];
-			$image=$result['Image'];
+			$skill_id=$row['Skill_id'];
+			$name=$row['Name'];
+			$category_type=$row['Category_Type'];
+			$skill_description=$row['Skill_Description'];
+			$image=$row['Image'];
 			
-			$description=$result['Description'];
-			$modification=$result['Modification'];
+			$description=$row['Description'];
+			$modification=$row['Modification'];
 			
 			
 			
