@@ -8,7 +8,7 @@
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
             }
-            $qur="SELECT wep_ID, wep_Name FROM wepMain";
+            $qur="SELECT wep_ID, wep_Name FROM wepMain NATURAL JOIN wepStats WHERE wep_Type='Shotgun'";
                 echo "<table style='width: 100%;'>";
                 echo "<tr>";
                 $i=1;
