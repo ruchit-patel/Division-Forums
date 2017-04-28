@@ -48,23 +48,23 @@
     font-size: 32;
 }
 .caserMedical{
-    background-color: #76FF03;
-    color: #ff8f00;
-    border: 1px solid #ff8f00;
+    background-color: #ffffff;
+    color: #76FF03;
+    border: 1px solid #76FF03;
     font-size: 20px;
 }
 
 .caserTech{
-    background-color: #FFA000;
-    color: #ff8f00;
-    border: 1px solid #ff8f00;
+    background-color: #ffffff;
+    color: #FFA000;
+    border: 1px solid #FFA000;
     font-size: 20px;
 }
 
 .caserSecurity{
-    background-color: #2196F3;
-    color: #ff8f00;
-    border: 1px solid #ff8f00;
+    background-color: #ffffff;
+    color: #2196F3;
+    border: 1px solid #2196F3;
     font-size: 20px;
 }
 
