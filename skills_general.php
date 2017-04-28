@@ -39,7 +39,7 @@
 	</div>
 
 	<div class="col-md-2 col-md-offset-0">
-		<img src="Images\skills_1.jpg" width="100%" style="min-height:310px;">
+		<img src="Images\skills.jpg" width="100%" style="min-height:310px;">
 	</div>
 	
 </div>
