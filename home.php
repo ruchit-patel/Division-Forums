@@ -83,9 +83,9 @@
               <img src="Images/Homepage_Images/slideshow_3.jpg" alt="New york" style="width:100%;">
             </div>
 
-            <div class="item">
+            <!--div class="item">
               <iframe  width="850" height="450" src="https://www.youtube.com/embed/NjqKMhx1k5w?rel=0" frameborder="0" allowfullscreen></iframe>
-            </div>
+            </div-->
           </div>
 
           <!-- Left and right controls -->
