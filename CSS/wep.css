@@ -55,7 +55,7 @@
 }
 a.anchor {
     display: block;
-    height: 115px; /*same height as header*/
-    margin-top: -115px; /*same height as header*/
+    height: 1150px; /*same height as header*/
+    margin-top: -1150px; /*same height as header*/
     visibility: hidden;
 }
