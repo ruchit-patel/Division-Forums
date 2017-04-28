@@ -14,7 +14,7 @@ if (!$conn) {
     $strangemax = mysqli_real_escape_string($conn,$_POST['stsmax']);
     $modid = mysqli_real_escape_string($conn,$_POST['mod_id']);
 
-  $sql = "INSERT INTO Medical values ('$majttrmin','$majttrmax','$strangemin','$strangemax','$modid')";
+  $sql = "INSERT INTO gearSkillsMod values ('$majttrmin','$majttrmax','$strangemin','$strangemax','$modid')";
 
 
   if (mysqli_query($conn, $sql)) {
