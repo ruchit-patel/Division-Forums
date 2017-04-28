@@ -47,32 +47,41 @@
   <div class="col-md-1"></div>
   <div class="col-md-7">
     <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <img class="d-block img-fluid" src="Images/slide1.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block img-fluid" src="Images/slide3.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block img-fluid" src="Images/slide2.jpeg" alt="Third slide">
-        </div>
+  <h2>Carousel Example</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="Images/slide1.jpg" alt="Los Angeles" style="width:100%;">
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
+      <div class="item">
+        <img src="Images/slide2.jpeg" alt="Chicago" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="Images/slide3.jpg" alt="New york" style="width:100%;">
+      </div>
     </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
   </div>
 
 </div>
@@ -121,27 +130,35 @@ News
 
 <div class="wrapper">
             <div class="row">
-
+				
 
                 <div class="col-md-5 col-md-offset-1">
                     <div class="card" style="min-height:600px;">
+						<img src="Images\Homepage_Images\wep.jpg" width="100%">
+						
                         <div class="card-block">
 
                             <p class="crd-h1" style="font-size:30px;">Weapon</p>
 							<font size="5">
 							<!--content of Weapon -->
-							<img src="Images\Homepage_Images\wep.jpg" class="w3-circle" width="100%">
-							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
+							<!--img src="Images\Homepage_Images\wep.jpg" class="w3-circle" width="100%">
+							<!--info--> Players are able to customize their weapons to make them unique and personal to their agent. Guns can be customized with a variety of attachments which are referred to as modifications, such as scopes, grips, sights, magazines, muzzle attachments and weapon skins. Weapons also have a different rarity.
 							</font>
                         </div>
+					
+						
+						<div class="row" style="background-color:black;"> <br> <br> <br> </div>
+					
+						<img src="Images\Homepage_Images\gear.jpg" width="100%">
 
+					
 						<div class="card-block">
 
                             <p class="crd-h1" style="font-size:30px;">Gear</p>
 							<font size="5">
 							<!--content of Weapon -->
-							<img src="Images\Homepage_Images\gear.jpg" class="w3-circle" width="100%">
-							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
+							<!--img src="Images\Homepage_Images\gear.jpg" class="w3-circle" width="100%">
+							<!--info--> In Tom Clancy's The Division, agents can wear various types of gear that improve their abilities and stats and change their appearance.
 							</font>
                         </div>
 
@@ -166,22 +183,29 @@ News
 
 				<div class="col-md-5 col-md-offset-0">
                     <div class="card" style="min-height:250px;">
-                        <div class="card-block">
+                        
+						<img src="Images\Homepage_Images\skills.jpg" width="100%">
+						
+						<div class="card-block">
 
                             <p class="crd-h1" style="font-size:30px;">Skill</p>
 							<font size="5">
 							<!--content of Weapon -->
-							<img src="Images\Homepage_Images\skills.jpg" class="w3-circle" width="100%">
-							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
+							<!--img src="Images\Homepage_Images\skills.jpg" class="w3-circle" width="100%">
+							<!--info--> In Tom Clancy's The Division, players are able to use various different skills to gain an advantage over others in combat. Skills are unlocked as the player upgrades the Base of Operations. 
 							</font>
                         </div>
-
+						
+						<div class="row" style="background-color:black;"> <br> <br> <br> </div>
+						
+						<img src="Images\Homepage_Images\gear_mods.jpg" width="100%">
+						
 						<div class="card-block">
 
                             <p class="crd-h1" style="font-size:30px;">Mod</p>
 							<font size="5">
 							<!--content of Weapon -->
-							<img src="Images\Homepage_Images\gear_mods.jpg" class="w3-circle" width="100%">
+							<!--img src="Images\Homepage_Images\gear_mods.jpg" class="w3-circle" width="100%">
 							<!--info--> A professor moans with your deep abandon. The laser strays near the razor. The slight pedestrian graphs an imperfect gear. The radio sighs opposite a birthday. An industrial tribe originates under a dumped bounce.
 							</font>
                         </div>
