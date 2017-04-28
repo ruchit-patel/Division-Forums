@@ -12,10 +12,9 @@ if (!$conn) {
     $majttrmax = mysqli_real_escape_string($conn,$_POST['majmax']);
     $strangemin = mysqli_real_escape_string($conn,$_POST['stsmin']);
     $strangemax = mysqli_real_escape_string($conn,$_POST['stsmax']);
-    $skillattr = mysqli_real_escape_string($conn,$_POST['skillname']);
     $modid = mysqli_real_escape_string($conn,$_POST['mod_id']);
 
-  $sql = "INSERT INTO Medical values ('$majttrmin','$majttrmax','$strangemin','$strangemax','$skillattr','$modid')";
+  $sql = "INSERT INTO Medical values ('$majttrmin','$majttrmax','$strangemin','$strangemax','$modid')";
 
 
   if (mysqli_query($conn, $sql)) {
