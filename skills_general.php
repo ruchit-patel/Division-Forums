@@ -63,8 +63,9 @@
             <p class="crd-h1" style="font-size:30px;">Medical Skills</p>
             <font size="4.5">
               <!--content of Medical Info Skills -->
-			  The Medical Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Madison Field Hospital, in which you rescue Dr. Jessica Kandel who runs the Medical Wing. As with all three wings there are 10 available upgrades available. The Medical Wing gives access to the Skills First Aid, Support Station, and Recovery Link; as well as the already available Pulse. <br> 
-			  Medical skills provide support and Intel for the agent and their team. <br> 
+			  <p>
+			  The Medical Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Madison Field Hospital, in which you rescue Dr. Jessica Kandel who runs the Medical Wing. As with all three wings there are 10 available upgrades available. The Medical Wing gives access to the Skills First Aid, Support Station, and Recovery Link; as well as the already available Pulse. </p> 
+		<p>	  Medical skills provide support and Intel for the agent and their team. </p> 
 			  <?php
                                 require 'FinalScripts/skills_dispMedical.php';
                ?>
@@ -92,8 +93,9 @@
             <p class="crd-h1" style="font-size:30px;">Tech Skills</p>
             <font size="4.5">
               <!--content of Tech Info Skills -->
-			  The Tech Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Subway Morgue, in which you rescue engineer Paul Rhodes who runs the Tech Wing. As with all three wings there are 10 available upgrades available. The Tech Wing gives access to the Skills Turret, Seeker Mine, and Tactical Link; as well as the already available Sticky Bomb. <br> 
-			  Tech skills give agents an offensive edge. <br>
+			  <p>
+			  The Tech Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Subway Morgue, in which you rescue engineer Paul Rhodes who runs the Tech Wing. As with all three wings there are 10 available upgrades available. The Tech Wing gives access to the Skills Turret, Seeker Mine, and Tactical Link; as well as the already available Sticky Bomb. </p>
+			<p>  Tech skills give agents an offensive edge. </p>
 			  <?php
                                 require 'FinalScripts/skills_dispTechnical.php';
                ?>
@@ -123,8 +125,10 @@
             <p class="crd-h1" style="font-size:30px;">Security Skills</p>
             <font size="4.5">
               <!--content of Tech Info Skills -->
+			  <p>
 			  The Security Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Lincoln Tunnel Checkpoint, in which you rescue Captain Roy Benitez who runs the Security Wing. As with all three wings there are 10 available upgrades available. The Security Wing gives access to the Skills Smart Cover, Mobile Cover, and Survivor Link; as well as the already available Ballistic Shield. <br> 
-			  Security skills are focused on defensive capabilities. <br>
+			  Security skills are focused on defensive capabilities. </p>
+			  
 
 			  <?php
                                 require 'FinalScripts/skills_dispSecurity.php';
