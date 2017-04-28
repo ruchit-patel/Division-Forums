@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>General Info Card</title>
+<title></title>
 <style>
 @font-face {
   font-family: Borda;
@@ -107,7 +106,7 @@ echo "</div> <!--General info card ends here-->";
 
 echo "<div class=\"row\">";
 echo "<br> <br> <br> <br>";
-echo "</div>"
+echo "</div>";
 
 echo "<div class=\"wrapper\">";
 	echo "<div class=\"row\"> <!--row for fitting three cards for mods-->";
