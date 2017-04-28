@@ -70,6 +70,22 @@
                     </div>
                 </div>
             </div>
+            <div class="row" style="margin-top:15px;">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="crd-h1">Assault Rifles</p>
+                            <p>Assault rifles fall intermediately in accuracy, range, rates of fire, and firepower. Assault rifles are selective fire, which can contribute to overall accuracy and marksmanship skills from a Marksman Rifles adapted onto this class of weapon.</p>
+                            <p>Assault rifles tend to be mid-range, full-automatic weapons, with some limited exceptions. Compared to SMGs, assault rifles tend to have a smaller bullet spread, stronger recoil, and longer optimal range. Additionally, all assault rifles have an innate headshot damage bonus of +75%, compared to +50% on most other weapons.</p>
+                            <p>Assault Rifles have a in-class bonus of 17.5-24% Enemy Armor Damage, increasing damage towards enemies having armor.</p>
+                            <p>The Assualt Rifles in Tom Clancy's The Division are:</p>
+                             <?php
+                                require 'FinalScripts/dispAR.php';
+                             ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
