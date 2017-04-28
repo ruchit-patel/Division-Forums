@@ -47,7 +47,7 @@
   <div class="col-md-1"></div>
   <div class="col-md-7">
     <div class="container">
-  <h2>Carousel Example</h2>
+  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -130,12 +130,12 @@ News
 
 <div class="wrapper">
             <div class="row">
-				
+
 
                 <div class="col-md-5 col-md-offset-1">
                     <div class="card" style="min-height:600px;">
 						<img src="Images\Homepage_Images\wep.jpg" width="100%">
-						
+
                         <div class="card-block">
 
                             <p class="crd-h1" style="font-size:30px;">Weapon</p>
@@ -145,13 +145,13 @@ News
 							<!--info--> Players are able to customize their weapons to make them unique and personal to their agent. Guns can be customized with a variety of attachments which are referred to as modifications, such as scopes, grips, sights, magazines, muzzle attachments and weapon skins. Weapons also have a different rarity.
 							</font>
                         </div>
-					
-						
+
+
 						<div class="row" style="background-color:black;"> <br> <br> <br> </div>
-					
+
 						<img src="Images\Homepage_Images\gear.jpg" width="100%">
 
-					
+
 						<div class="card-block">
 
                             <p class="crd-h1" style="font-size:30px;">Gear</p>
@@ -183,23 +183,23 @@ News
 
 				<div class="col-md-5 col-md-offset-0">
                     <div class="card" style="min-height:250px;">
-                        
+
 						<img src="Images\Homepage_Images\skills.jpg" width="100%">
-						
+
 						<div class="card-block">
 
                             <p class="crd-h1" style="font-size:30px;">Skill</p>
 							<font size="5">
 							<!--content of Weapon -->
 							<!--img src="Images\Homepage_Images\skills.jpg" class="w3-circle" width="100%">
-							<!--info--> In Tom Clancy's The Division, players are able to use various different skills to gain an advantage over others in combat. Skills are unlocked as the player upgrades the Base of Operations. 
+							<!--info--> In Tom Clancy's The Division, players are able to use various different skills to gain an advantage over others in combat. Skills are unlocked as the player upgrades the Base of Operations.
 							</font>
                         </div>
-						
+
 						<div class="row" style="background-color:black;"> <br> <br> <br> </div>
-						
+
 						<img src="Images\Homepage_Images\gear_mods.jpg" width="100%">
-						
+
 						<div class="card-block">
 
                             <p class="crd-h1" style="font-size:30px;">Mod</p>
