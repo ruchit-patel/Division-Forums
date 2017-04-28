@@ -18,7 +18,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     }
         $id = mysqli_real_escape_string($conn,$_POST['uname']);
         $pass = mysqli_real_escape_string($conn,$_POST['pass']);
-        $retrive="SELECT Acc_Name,Password from Account where Acc_Name='$id' AND  Password=sha1('$pass')";
+        $retrive="SELECT Acc_Name,Password from Account where Acc_Name='$id' AND  Password='$pass'";
         $run=@mysqli_query($conn,$retrive);
         if(mysqli_num_rows($run)==1){
           $row=mysqli_fetch_array($run,MYSQLI_ASSOC);
