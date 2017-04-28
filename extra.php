@@ -23,9 +23,9 @@
 			for($i=01;$i<12;$i++)
 			{	
 			$string="SELET wep_Img FROM Extra where wep_ID=\"WP00$i\"";
-			$char="s";
-			$attachment="\\";	
-			$newstring = str_replace($char, $char.$attachment, $string);
+			//$char="s";
+			//$attachment="\\";	
+			$newstring = addcslashes($string,"s");
 			$que="UPDATE Extra set wep_Img='$newstring' where wep_ID=\"WP00$i\"";
 			echo "Hello executing $i";
 			}
