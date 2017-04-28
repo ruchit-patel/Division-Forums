@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="CSS\skills_general.css">
+        <link rel="stylesheet" href="CSS\skills.css">
 </head>
 <body background="Images\skills_bg.jpg" style="background-repeat: no-repeat;
     background-attachment: fixed;">
@@ -36,7 +36,7 @@
 			  
 				<p>There 3 types of Skills:</p>
 				<ul>
-                    <li><a href="#Shot" style="color: #76FF03;">Medical</a></li>
+                    <li><a href="#Shot" style="color: #4CAF50;">Medical</a></li>
                     <li><a href="#SMG" style="color: #FFA000;">Technical</a></li>
                     <li><a href="#AR" style="color: #2196F3;">Security</a></li>
                 </ul>
