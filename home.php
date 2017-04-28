@@ -42,10 +42,10 @@
     <br><br><br>
     <div class="col-md-1"></div>
     <div class="col-md-7">
-      <!--div class="container"-->
+
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-          <!-- Indicators -->
+
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -53,14 +53,12 @@
             <li data-target="#myCarousel" data-slide-to="3"></li>
           </ol>
 
-          <!-- Wrapper for slides -->
+
           <div class="carousel-inner">
             <div class="item active">
-<!-- <<<<<<< HEAD -->
+
               <img src="Images/Homepage_Images/slideshow_1.jpg" alt="Los Angeles" style="width:100%;">
-<!-- ======= -->
-              <!--img src="Images/slide1.jpg" alt="Los Angeles" style="width:110%;"-->
-<!-- >>>>>>> d3d5f84417a6be0972bdb5ffffae3f48b291669e -->
+
             </div>
 
             <div class="item">
@@ -91,35 +89,30 @@
 
   <!--/div-->
   <div class="col-md-1"></div>
-  
- 
+
+
   <div class="col-md-2">
-		   
-          <div class="card" style="height:425px; width:300px; margin-left:-75px; ">
-		  
+
+          <div class="card" style="height:470px; width:300px; margin-left:-75px; ">
+
           <div class="card-block">
-			 <marquee direction="up" scrollamount="7" onmouseover="this.stop();" onmouseout="this.start();">
+
             <p class="crd-h1" style="font-size:30px;">News</p>
               <font size="5">
-			  
+
+              <marquee direction="up" scrollamount="3" loop="true" height=400px onmouseover="this.stop();" onmouseout="this.start();">
 			  <!--content of General Info -->
-			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-259002-16/new-activity-for-our-season-pass-owners"> We come to you today with news on a topic that has generated a lot of discussion in the community: the “monthly events for Season Pass owners”. </a> <br>
+			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-259002-16/new-activity-for-our-season-pass-owners">We come to you today with news on a topic that has generated a lot of discussion in the community: the “monthly events for Season Pass owners”. </a> <br>
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-256996-16/state-of-the-game-june-28th-2016"> Underground is now available for Xbox One and PC players. If you haven’t already, make sure you download the patch and let us know what you think! </a> <br>
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-254806-16/state-of-the-game-june-9th-2016"> Challenge Mode Clear Sky is now available! Grab your friends, organize your group, and get at it! </a> <br>
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-252565-16/state-of-the-game-may-24th-2016"> We are extremely happy to get the update out there and can’t wait to hear what you think of it! </a> <br>
 			  <a href="https://tomclancy-thedivision.ubisoft.com/game/en-US/news/152-288024-16/introducing-agent-highlights"> It's our pleasure to introduce you to the Agent Highlights – a community focused article series to celebrate all kinds of content made by you. </a>
-<<<<<<< HEAD
-			   
-=======
-
->>>>>>> 5607190f56af060171d6b9f2ffce2e181d42742c
+      </marquee>
               </font>
-			  </marquee> 
+		          </div>
               </div>
-			 
-              </div>
-			  
-			 
+
+
   </div>
   <div class="col-md-1"></div>
   </div>
@@ -200,22 +193,6 @@
         </div>
       </div>
 
-
-
-      <!--div class="col-md-2 col-md-offset-0">
-                    <div class="card" style="min-height:250px;">
-                        <div class="card-block">
-
-                            <p class="crd-h1" style="font-size:30px;">Gear</p>
-							<font size="5">
-							<!--content of Weapon -->
-      <!--img src="Images\Homepage_Images\gear.jpg" class="w3-circle" width="100%">
-							<!--info-->
-      <!--/font>
-                        </div>
-                    </div>
-                </div-->
-
       <div class="col-md-5 col-md-offset-0">
         <div class="card" style="min-height:250px;">
 
@@ -248,19 +225,6 @@
         </div>
       </div>
 
-      <!--div class="col-md-3 col-md-offset-0">
-                    <div class="card" style="min-height:250px;">
-                        <div class="card-block">
-
-                            <p class="crd-h1" style="font-size:30px;">Mod</p>
-							<font size="5">
-							<!--content of Weapon -->
-      <!--img src="Images\Homepage_Images\mods.jpg" class="w3-circle" width="100%">
-							<!--info-->
-      <!--/font>
-                        </div>
-                    </div>
-                </div-->
 
       <div class="col-md-1 col-md-offset-0"> </div>
 
