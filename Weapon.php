@@ -50,7 +50,7 @@
                 $wMag=$row['Mag'];
                 $wMuzsm=$row['Muz_sm'];
                 $wMuzlg=$row['Muz_lg'];
-                $talId=$row['tal_Id'];
+                $talId=$row['tal_ID'];
                 $talName=$row['tal_Name'];
                 $talDesc=$row['tal_Desc'];
                 $AR=$row['AR'];
@@ -59,6 +59,7 @@
                 $MMR=$row['MMR'];
                 $Shotgun=$row['Shotgun'];
                 $Sidearm=$row['Sidearm'];
+                $tals="SELECT tal_Name, tal_Desc FROM wepTal WHERE $wType='T'";
                 echo "<div class=\"wrapper\">";
                     echo "<div class=\"row\">";
                         echo "<div class=\"col-md-6 col-md-offset-1\">";
@@ -138,7 +139,14 @@
                             echo "<div class=\"card\">";
                                 echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Talents</p>";
-
+                                    echo "<table class=\"statsTbl\" border=\"1\" style='width:100%;'>";
+                                    echo "<tr style=\"font-weight: Bold;\"><td>Talent Name</td><td>Description</td>";                                    
+                                    while($row = mysqli_fetch_assoc($tals)){
+                                        $nm= $row['tal_Name'];
+                                        $de= $row['tal_Desc'];
+                                        echo "<tr><td>$nm</td><td>$de</td></tr>";
+                                    }
+                                    echo "</table>";
                                 echo "</div>";
                             echo "</div>";
                         echo "</div>";  
