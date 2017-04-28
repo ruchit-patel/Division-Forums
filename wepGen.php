@@ -59,7 +59,7 @@
                     <div class="card">
                         <div class="card-block">
                              <?php
-                                include 'dispWep.php';
+                                require 'dispWep.php';
                              ?>
                         </div>
                     </div>
