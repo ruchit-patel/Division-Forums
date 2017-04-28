@@ -42,7 +42,7 @@ p{
 <body class="parallax1" background="Images\ModsBg.jpg">
 
 	<?php
-
+			ini_set('display_errors', 1);
 			$skill_id=$_GET['Skill_id'];
 			$servername = "localhost";
             $username = "root";
