@@ -12,11 +12,12 @@
                 echo "<table style='table-layout: fixed; text-align:center;width:100%;'>";
                 echo "<tr>";
                 $i=1;
+                $act="../Weapon.php";
                 $result = mysqli_query($conn, $qur) OR die("".mysqli_error($conn));
                 while($row = mysqli_fetch_assoc($result)){
                     $wName=$row['wep_Name'];
                     $wId=$row['wep_ID'];
-                    echo "<td><form action='../Weapon.php' method='POST' id='wepDecide'>";
+                    echo "<td><form action='$act' method='POST' id='wepDecide'>";
                     echo "<input type='hidden' name='wID' value='$wId'>";
                     echo "<input type='Submit' class='caser' value='$wName' form='wepDecide'>";
                     echo "</form></td>";
