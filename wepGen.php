@@ -50,11 +50,11 @@
                                     <li><l style="color: #FFD600;">High-end</l></li>
                                     <li><l style="color: #D32F2F;">Exotic</l></li> 
                                 </ul>
-                                <a class="anchor" id="Shot"></a>
                         </div>
                     </div>
                 </div>
             </div>
+            <span class="anchor" id="Shot"></span>
             <div class="row" style="margin-top:15px;">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="card">
