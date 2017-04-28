@@ -28,14 +28,14 @@ li a {
     color: #ffffff;
     text-decoration: none;
 }
-li a:hover:not(.active) {
+li a:hover:not(.activenav) {
     background-color: #ffffff;
     color: #ff8f00;
 }
 li:last-child {
     border-left: none;
 }
-.active {
+.activenav {
     background-color: #ff8f00;
     color: #ffffff;
 }
