@@ -25,9 +25,19 @@
 			$string="SELET wep_Img FROM Extra where wep_ID=\"WP00$i\"";
 			//$char="s";
 			//$attachment="\\";	
+			
+			if(mysqli_query($conn,$string))
+			{
+					echo "Blah";
+			}
+			else
+			{
+					echo "Error";
+			}		
+			
 			$newstring = addcslashes($string,"s");
-			$que="UPDATE Extra set wep_Img='$newstring' where wep_ID=\"WP00$i\"";
-			echo "$newstring";
+			
+			echo "$string";
 			}
 			
 ?>
