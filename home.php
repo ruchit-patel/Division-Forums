@@ -30,7 +30,7 @@
 </head>
 
 <body style="background-color:black;">
-  <navbar>
+  <navbar style="z-index:10;">
     <ul id="navbtns">
       <li><a href="">Button 3</a></li>
       <li><a href="">Button 2</a></li>
