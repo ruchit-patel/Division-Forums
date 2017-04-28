@@ -15,7 +15,7 @@
               <div class="col-md-10">
                 <div class="card">
                   <div class="card-block">
-                  <center><p class="crd-h1"> gear</p></center>
+                  <center><p class="crd-h1"> Gear</p></center>
                   </div>
                 </div>
               </div>
