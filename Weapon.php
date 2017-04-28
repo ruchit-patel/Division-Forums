@@ -88,7 +88,35 @@
                             echo "<div class=\"card\">";
                                 echo "<div class=\"card-block\">";      
                                     echo "<p class=\"crd-h1\">Available Mod Slots</p>";
-                                    
+                                        echo"<ul>";
+                                            echo "<li> Skin </li>";
+                                            if($wOpticssm=='F' && $wOpticslg=='F' && $wUndsm=='F' && $wUndlg=='F' && $wMag=='F' && $wMuzsm=='F' && $wMuzlg=='F'){
+
+                                            }
+                                            else{
+                                                if($wOpticssm=='T'){
+                                                    echo "<li> Optics Small </li>"; 
+                                                } 
+                                                if($wOpticslg=='T'){
+                                                    echo "<li> Optics Large </li>"; 
+                                                }
+                                                if($wUndlg=='T'){
+                                                    echo "<li> Underbarrel Large </li>"; 
+                                                }
+                                                if($wUndsm=='T'){
+                                                    echo "<li> Underbarrel Small </li>"; 
+                                                }
+                                                if($wMag=='T'){
+                                                    echo "<li> Magazine </li>"; 
+                                                }
+                                                if($wMuzsm=='T'){
+                                                    echo "<li> Muzzle Small </li>"; 
+                                                }
+                                                if($wMuzlg=='T'){
+                                                    echo "<li> Muzzle Large </li>"; 
+                                                }
+                                            }    
+                                        echo "</ul>";
                                 echo "</div>";
                             echo "</div>";
                         echo "</div>";
