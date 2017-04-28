@@ -68,11 +68,11 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-<<<<<<< HEAD
+<!-- <<<<<<< HEAD -->
               <img src="Images/Homepage_Images/slideshow_1.jpg" alt="Los Angeles" style="width:100%;">
-=======
+<!-- ======= -->
               <!--img src="Images/slide1.jpg" alt="Los Angeles" style="width:110%;"-->
->>>>>>> d3d5f84417a6be0972bdb5ffffae3f48b291669e
+<!-- >>>>>>> d3d5f84417a6be0972bdb5ffffae3f48b291669e -->
             </div>
 
             <div class="item">
