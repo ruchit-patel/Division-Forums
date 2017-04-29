@@ -1,5 +1,17 @@
 <?php
     if($_SERVER['REQUEST_METHOD']=='POST'){
+		
+		$id= $_GET['wID'];
+                        $servername = "localhost";
+                        $username = "root";
+                        $password = "admin";
+                        $dbname = "division";
+                        $conn = mysqli_connect($servername, $username, $password, $dbname);
+                        // Check connection
+                        if (!$conn) {
+                            die("Connection failed: " . mysqli_connect_error());
+                        }
+		
 		$wid=$_POST['wid'];
 		$wname=$_POST['wname'];
 		$wvar=$_POST['wvar'];
@@ -28,7 +40,7 @@
 		}
 		else
 		{
-			"error";
+			"error".mysqli_error($conn);
 		}
 
 		if(mysqli_query($conn,$weaponbonus))
@@ -37,7 +49,7 @@
 		}
 		else
 		{
-			"error";
+			echo "error".mysqli_error($conn);
 		}
 
 		if(mysqli_query($conn,$weaponstats))
@@ -46,7 +58,7 @@
 		}
 		else
 		{
-			"error";
+			echo "error".mysqli_error($conn);
 		}	
 			
 		
