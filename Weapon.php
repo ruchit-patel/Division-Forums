@@ -106,7 +106,7 @@
                             echo "<div class=\"card\">";
                                 echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Available Mod Slots</p>";
-                                        echo"<ul>";
+                                        echo"<ol>";
                                             echo "<li> Skin </li>";
                                             if($wOpticssm=='F' && $wOpticslg=='F' && $wUndsm=='F' && $wUndlg=='F' && $wMag=='F' && $wMuzsm=='F' && $wMuzlg=='F'){
                                             }
@@ -133,7 +133,7 @@
                                                     echo "<li> Muzzle Large </li>";
                                                 }
                                             }
-                                        echo "</ul>";
+                                        echo "</ol>";
                                 echo "</div>";
                             echo "</div>";
                         echo "</div>";

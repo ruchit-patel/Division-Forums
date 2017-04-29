@@ -51,11 +51,11 @@
 			  <p>In Tom Clancy's The Division, players are able to use various different skills to gain an advantage over others in combat. Skills are unlocked as the player upgrades the Base of Operations. So the skills are divided up into three groups; Medical, Tech, and Security. Players are able to choose what skills they wish to focus on or specialize in. These skills are active abilities used by the player which then recharge before the player can use them again.There are 2 slots for skills and 1 slot for signature skill.</p>
 
 				<p>There 3 types of Skills:</p>
-				<ul>
+				<ol>
                     <li><a href="#Shot" style="color: #4CAF50;">Medical</a></li>
                     <li><a href="#SMG" style="color: #FFA000;">Technical</a></li>
                     <li><a href="#AR" style="color: #2196F3;">Security</a></li>
-                </ul>
+                </ol>
 				</font>
           </div>
         </div>
