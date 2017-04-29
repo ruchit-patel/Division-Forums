@@ -34,10 +34,10 @@
   //echo "$_SESSION['previ']";
   if($_SESSION['uname']=="admin")
   {
-    include 'nav1.html';
+    include 'nav.html';
   }
   else {
-    include 'nav.html';
+    include 'nav1.html';
   }
    ?>
   <br><br>
