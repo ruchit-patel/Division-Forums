@@ -41,6 +41,9 @@
   else if($_SESSION['role']=="NULL"){
     include 'nav1.html';
   }
+  else {
+    header("location: login/index.html");
+  }
    ?>
   <br><br>
   <div class="row">
