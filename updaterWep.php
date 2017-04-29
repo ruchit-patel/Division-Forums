@@ -54,7 +54,7 @@
                         $MMR=$row['MMR'];
                         $Shotgun=$row['Shotgun'];
                         $Sidearm=$row['Sidearm'];
-                        echo "<br><br><form method=\"post\" action=\"FinalScripts/weaponsprocess.php\"> <table style=\"width:100%;\">
+                        echo "<br><br><form method=\"post\" action=\"FinalScripts/wepUpdt.php\"> <table style=\"width:100%;\">
                         <tr> <td>    Wep ID: </td> <td> <input type=\"text\" name=\"wid\" value=\"$id\"><br><br> </td> </tr>
                         <tr> <td>    Name: </td> <td> <input type=\"text\" name=\"wname\"M value=\"$wName\"><br><br> </td> </tr>
                         <tr> <td>    Varients: </td> <td> <input type=\"text\" name=\"wvar\"  value=\"$wVars\"><br><br> </td> </tr>
@@ -70,7 +70,7 @@
                         <tr> <td>    Bonus Type: </td> <td> <input type=\"text\" name=\"wbnstyp\"  value=\"$wBtyp\"><br><br> </td> </tr>
                         <tr> <td>    Bonus min: </td> <td> <input type=\"text\" name=\"wbnsmin\"  value=\"$wBmin\"><br><br> </td> </tr>
                         <tr> <td>    Bonus max: </td> <td> <input type=\"text\" name=\"wbnsmax\"  value=\"$wBmax\"><br><br> </td> </tr>
-                        <tr> <td>    <input type=\"Submit\"> </td> </tr> </table>
+                        <tr> <td>    <input type=\"Submit\" value=\"Update\"> </td> </tr> </table>
                         </form>";
                     }
                 ?>
