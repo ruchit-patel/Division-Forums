@@ -54,6 +54,24 @@
                         $MMR=$row['MMR'];
                         $Shotgun=$row['Shotgun'];
                         $Sidearm=$row['Sidearm'];
+                        echo '<br><br><form method="post" action="FinalScripts/weaponsprocess.php"> <table style="width:100%;">
+                        <tr> <td>    Wep ID: </td> <td> <input type="text" name="wid" value="$id"><br><br> </td> </tr>
+                        <tr> <td>    Name: </td> <td> <input type="text" name="wname"><br><br> </td> </tr>
+                        <tr> <td>    Varients: </td> <td> <input type="text" name="wvar"><br><br> </td> </tr>
+                        <tr> <td>    Info: </td> <td> <textarea rows="4" cols="50" name="winfo"></textarea><br><br> </td> </tr>
+                        <tr> <td>    Real World: </td> <td> <textarea rows="4" cols="50" name="wrw"></textarea><br><br> </td> </tr>
+                        <tr> <td>    Img: </td> <td> <input type="text" name="wimg"><br><br> </td> </tr>
+                        <tr> <td>    Type: </td> <td> <input type="text" name="wtyp"><br><br> </td> </tr>
+                        <tr> <td>    RPM: </td> <td> <input type="text" name="wrpm"><br><br> </td> </tr>
+                        <tr> <td>    Mag Size: </td> <td> <input type="text" name="wmgsi"><br><br> </td> </tr>
+                        <tr> <td>    Range: </td> <td> <input type="text" name="wrng"><br><br> </td> </tr>
+                        <tr> <td>    Reload: </td> <td> <input type="text" name="wrld"><br><br> </td> </tr>
+                        <tr> <td>    Headshot Bonus: </td> <td> <input type="text" name="whsd"><br><br> </td> </tr>
+                        <tr> <td>    Bonus Type: </td> <td> <input type="text" name="wbnstyp"><br><br> </td> </tr>
+                        <tr> <td>    Bonus min: </td> <td> <input type="text" name="wbnsmin"><br><br> </td> </tr>
+                        <tr> <td>    Bonus max: </td> <td> <input type="text" name="wbnsmax"><br><br> </td> </tr>
+                        <tr> <td>    <input type="Submit"> </td> </tr> </table>
+                        </form>';
                     }
                 ?>
             </div>
