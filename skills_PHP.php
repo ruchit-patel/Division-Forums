@@ -112,7 +112,7 @@ p{
 
 				echo "<div class=\"col-md-3\"> <!--fitting the image in 3 cols--> ";
 
-				echo "<img src=\"Images/Skill)Imgs/Turret.png\" style=\"width:100%;\">";
+				echo "<img src=\"Turret.png\" style=\"width:100%;\">";
 
 				echo "</div> <!--closing the fitting of the image in 3 cols-->";
 
