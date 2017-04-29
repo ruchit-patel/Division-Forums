@@ -17,22 +17,22 @@ navbar{
   padding: 0;
   overflow: hidden;
 }
-li {
+li.ab {
   float: right;
   border-left:2px solid #ffffff;
 }
 
-li a {
+li.ab a {
     display: block;
     padding: 15px;
     color: #ffffff;
     text-decoration: none;
 }
-li a:hover:not(.active) {
+li.ab a:hover:not(.active) {
     background-color: #ffffff;
     color: #ff8f00;
 }
-li:last-child {
+li.ab:last-child {
     border-left: none;
 }
 .active {
