@@ -33,6 +33,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
              header("location: ../home.php");
           }
           else{
+            $_SESSION['role']="NULL";
           header("location: ../home.php");
           }
 
