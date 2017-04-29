@@ -21,11 +21,11 @@
                             <p class="crd-h1">Select The name of the table</p>
                             <div class="container">
                                <div class="dropdown">
-                                   <form action="insafter.php" method="get">
+                                   <form action="updater.php" method="get">
                                        <select  id="sel1" name="table">
                                              <option selected disabled>Choose here</option>
                                              <?php
-                                                include 'tabinfo.php';
+                                                require 'tabinfo.php';
                                              ?>
                                         </select><br><br>
                                         <input type="submit">
