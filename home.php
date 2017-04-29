@@ -30,13 +30,15 @@
 </head>
 
 <body style="background-color:black;">
-  <navbar style="z-index:10;">
-    <ul id="navbtns">
-      <li><a href="">Button 3</a></li>
-      <li><a href="">Button 2</a></li>
-      <li><a href="" class="active">Button 1</a></li>
-    </ul>
-  </navbar>
+  <?php
+  if($_SESSION['previ']=="admin")
+  {
+    include 'nav.html';
+  }
+  else {
+    include 'nav1.html';
+  }
+   ?>
   <br><br>
   <div class="row">
     <br><br><br>

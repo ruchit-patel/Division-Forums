@@ -20,14 +20,17 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         $id = mysqli_real_escape_string($conn,$_POST['uname']);
         $pass = mysqli_real_escape_string($conn,$_POST['pass']);
 
-        $retrive="SELECT Acc_Name,Password from Account where Acc_Name='$id' AND  Password=SHA1('$pass')";
+        $retrive="SELECT Acc_Name,Password,Acc_Status from Account where Acc_Name='$id' AND  Password=SHA1('$pass')";
 
         $run=@mysqli_query($conn,$retrive);
         if(mysqli_num_rows($run)==1){
           $row=mysqli_fetch_array($run,MYSQLI_ASSOC);
           session_start();
           $_SESSION['uname']=$id;
-          echo "Hello".$_SESSION['uname'];
+          if($row['Acc_Status']=="Admin"){
+            $_SESSION['previ']="admin";
+             header("location: home.php");
+          }
 
         }
         else {
