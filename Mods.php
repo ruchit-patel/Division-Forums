@@ -6,15 +6,15 @@
 @font-face {
   font-family: Borda;
   src: url("FontFiles/The.Northern.Block.Ltd_Borda.otf");
-  
+
 }
 @font-face {
   font-family: Borda-ExtraBold;
-  src: url("FontFiles/The.Northern.Block.Ltd_Borda.ExtraBold.otf"); 
+  src: url("FontFiles/The.Northern.Block.Ltd_Borda.ExtraBold.otf");
 }
 body {
 	font-family: Borda;
-	
+
 }
 p{
 	font-family: Borda;
@@ -44,7 +44,21 @@ p{
 </head>
 
 <body class="parallax1" background="Images\ModsBg.jpg">
-
+  <?php
+  //echo "$_SESSION['previ']";
+  session_start();
+  echo $_SESSION['role'];
+  if($_SESSION['role']=="admin")
+  {
+    include 'nav.html';
+  }
+  else if($_SESSION['role']=="NULL"){
+    include 'nav1.html';
+  }
+  else {
+    header("location: login/index.php");
+  }
+   ?>
 <div class="row">
 	<br><br><br><br><br>
 </div>
@@ -59,7 +73,7 @@ p{
                 <div class="col-md-7 col-md-offset-1">
                     <div class="card" style="min-height:250px;">
                         <div class="card-block">
-							
+
                             <p class="crd-h1" style="font-size:30px;">Pulse</p>
 							<font size="5">
                             Pulse is a Medical skill appearing in Tom Clancy's The Division.
@@ -69,9 +83,9 @@ p{
                         </div>
                     </div>
                 </div>
-				
+
 				<div class="col-md-3"> <!--fitting the image in 3 cols-->
- 
+
 					<img src="Images\thedivision_skills_edited.jpg" style="width:100%;">
 
 				</div> <!--closing the fitting of the image in 3 cols-->
@@ -79,12 +93,12 @@ p{
 				<div class="col-md-1"> <!--leaving one col from the right-->
 
 				</div>
-				
-				
-				
+
+
+
 			</div> <!--closing the row div in which mod card and image is fitted-->
 </div> <!--General info card ends here-->
-			
+
 
 
 <div class="row">
@@ -94,51 +108,51 @@ p{
 <div class="wrapper">
 	<div class="row"> <!--row for fitting three cards for mods-->
 
-		<div class="col-md-1"> 
+		<div class="col-md-1">
 		</div>
 
 		<div class="col-md-3"> <!--fitting first mod card-->
 			<div class="card">
                         <div class="card-block">
                             <p class="crd-h1">Recon Pack</p>
-    
 
-    
+
+
 							<br>
-		
+
 							<img src="Images\thedivision_reconpack_final.jpg" height="70%" width="50%" align="center">
-		
-							<font size="3"> 
+
+							<font size="3">
 							<br>
 							<br>  The pulse has an increased range and is capable of locating nearby loot containers.
 							</font>
 						</div>
 			</div>
 		</div>
-		
+
 
 		<div class="col-md-0">
 		</div>
 
 		<div class="col-md-3"> <!--fitting second mod card-->
-			
+
 			<div class="card">
                         <div class="card-block">
                             <p class="crd-h1">Scrambler</p>
-    
 
-    
+
+
 							<br>
-		
+
 							<img src="Images\thedivision_reconpack_final.jpg" height="70%" width="50%" align="center">
-		
-							<font size="3"> 
+
+							<font size="3">
 							<br>
 							<br>  The pulse protects the user and all allies from hostile pulse scans.
 							</font>
 						</div>
 			</div>
-			
+
 		</div>
 
 		<div class="col-md-0">
@@ -149,20 +163,20 @@ p{
 			<div class="card">
                         <div class="card-block">
                             <p class="crd-h1">Tactical Scanner</p>
-    
 
-    
+
+
 							<br>
-		
+
 							<img src="Images\thedivision_reconpack_final.jpg" height="70%" width="50%" align="center">
-		
-							<font size="3"> 
+
+							<font size="3">
 							<br>
 							<br>  Damage is increased when attacking any hostile targets identified by the Pulse scan.
 							</font>
 						</div>
 			</div>
-		
+
 		</div>
 
 		<div class="col-md-1">
@@ -181,36 +195,36 @@ p{
 
 		<div class="col-md-1">
 		</div>
-	
+
 		<div class="col-md-10"> <!--opening master mod container-->
-	
+
 			<div class="card">
                         <div class="card-block">
                             <p class="crd-h1">Master: Threat Detector</p>
-    
 
-    
+
+
 							<br>
-		
+
 							<img src="Images\thedivision_reconpack_final.jpg" height="70%" width="50%" align="center">
-		
-							<font size="3"> 
-							<br>  Requires all Medical Wing Upgrades <br> 
 
-								  The pulse gives an early warning of nearby hostiles and identifies if the user has been scanned by a hostile pulse. <br> 
+							<font size="3">
+							<br>  Requires all Medical Wing Upgrades <br>
 
-								  Note that all skill masteries are in addition to the other mods.	
+								  The pulse gives an early warning of nearby hostiles and identifies if the user has been scanned by a hostile pulse. <br>
+
+								  Note that all skill masteries are in addition to the other mods.
 							</font>
 						</div>
 			</div>
-		
-		
-	
-	
+
+
+
+
 		</div> <!--closing master mod container-->
 
 	</div> <!--closing master mod row-->
-</div> <!--closing master mod wrapper-->	
+</div> <!--closing master mod wrapper-->
 
 
 </body>

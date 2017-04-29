@@ -21,6 +21,21 @@
 </head>
 <body background="Images\skills_bg.jpg" style="background-repeat: no-repeat;
     background-attachment: fixed;">
+    <?php
+    //echo "$_SESSION['previ']";
+    session_start();
+    echo $_SESSION['role'];
+    if($_SESSION['role']=="admin")
+    {
+      include 'nav.html';
+    }
+    else if($_SESSION['role']=="NULL"){
+      include 'nav1.html';
+    }
+    else {
+      header("location: login/index.php");
+    }
+     ?>
 
 <div class="row"> <br> <br> <br> </div>
 
@@ -33,7 +48,7 @@
 			  <font size="4.5">
               <!--content of General Info Skills -->
 			  <p>In Tom Clancy's The Division, players are able to use various different skills to gain an advantage over others in combat. Skills are unlocked as the player upgrades the Base of Operations. So the skills are divided up into three groups; Medical, Tech, and Security. Players are able to choose what skills they wish to focus on or specialize in. These skills are active abilities used by the player which then recharge before the player can use them again.There are 2 slots for skills and 1 slot for signature skill.</p>
-			  
+
 				<p>There 3 types of Skills:</p>
 				<ul>
                     <li><a href="#Shot" style="color: #4CAF50;">Medical</a></li>
@@ -48,11 +63,11 @@
 	<div class="col-md-2 col-md-offset-0">
 		<img src="Images\skills.jpg" width="100%" style="min-height:310px;">
 	</div>
-	
+
 </div>
 
 <div class="row">
-<br> <br> <br> 
+<br> <br> <br>
 </div>
 
 <div class="row">
@@ -64,8 +79,8 @@
             <font size="4.5">
               <!--content of Medical Info Skills -->
 			  <p>
-			  The Medical Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Madison Field Hospital, in which you rescue Dr. Jessica Kandel who runs the Medical Wing. As with all three wings there are 10 available upgrades available. The Medical Wing gives access to the Skills First Aid, Support Station, and Recovery Link; as well as the already available Pulse. </p> 
-		<p>	  Medical skills provide support and Intel for the agent and their team. </p> 
+			  The Medical Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Madison Field Hospital, in which you rescue Dr. Jessica Kandel who runs the Medical Wing. As with all three wings there are 10 available upgrades available. The Medical Wing gives access to the Skills First Aid, Support Station, and Recovery Link; as well as the already available Pulse. </p>
+		<p>	  Medical skills provide support and Intel for the agent and their team. </p>
 			  <?php
                                 require 'FinalScripts/skills_dispMedical.php';
                ?>
@@ -79,7 +94,7 @@
           </div>
         </div>
 	</div>
-</div>	
+</div>
 
 <div class="row">
 <br> <br> <br>
@@ -111,7 +126,7 @@
           </div>
         </div>
 	</div>
-</div>	
+</div>
 
 <div class="row">
 <br> <br> <br>
@@ -126,9 +141,9 @@
             <font size="4.5">
               <!--content of Tech Info Skills -->
 			  <p>
-			  The Security Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Lincoln Tunnel Checkpoint, in which you rescue Captain Roy Benitez who runs the Security Wing. As with all three wings there are 10 available upgrades available. The Security Wing gives access to the Skills Smart Cover, Mobile Cover, and Survivor Link; as well as the already available Ballistic Shield. </p> 
+			  The Security Wing is one of the three wings in the player's Base of Operations. It is unlocked after completing the mission Lincoln Tunnel Checkpoint, in which you rescue Captain Roy Benitez who runs the Security Wing. As with all three wings there are 10 available upgrades available. The Security Wing gives access to the Skills Smart Cover, Mobile Cover, and Survivor Link; as well as the already available Ballistic Shield. </p>
 		<p>	  Security skills are focused on defensive capabilities. </p>
-			  
+
 
 			  <?php
                                 require 'FinalScripts/skills_dispSecurity.php';
@@ -146,12 +161,11 @@
           </div>
         </div>
 	</div>
-</div>	
+</div>
 
 <div class="row">
 <br> <br> <br>
 </div>
 
 </body>
-</html>		
-		
+</html>

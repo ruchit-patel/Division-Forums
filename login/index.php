@@ -15,7 +15,22 @@
 </head>
 
 <body>
-
+  <?php
+  //echo "$_SESSION['previ']";
+  session_start();
+  echo $_SESSION['role'];
+  if($_SESSION['role']=="admin")
+  {
+    include 'nav.html';
+  }
+  else if($_SESSION['role']=="NULL"){
+    include 'nav1.html';
+  }
+  else {
+    header("location: login/index.php");
+  }
+   ?>
+<br><br><br><br>
 <div class="container">
   <div class="card"></div>
   <div class="card">

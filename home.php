@@ -42,7 +42,7 @@
     include 'nav1.html';
   }
   else {
-    header("location: login/index.html");
+    header("location: login/index.php");
   }
    ?>
   <br><br>

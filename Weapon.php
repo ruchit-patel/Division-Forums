@@ -1,5 +1,5 @@
 <html>
-    <head>   
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,7 +13,22 @@
         </style>
     </head>
     <body class="parallax1">
-        <?php 
+      <?php
+      //echo "$_SESSION['previ']";
+      session_start();
+      echo $_SESSION['role'];
+      if($_SESSION['role']=="admin")
+      {
+        include 'nav.html';
+      }
+      else if($_SESSION['role']=="NULL"){
+        include 'nav1.html';
+      }
+      else {
+        header("location: login/index.php");
+      }
+       ?>
+        <?php
             if($_SERVER['REQUEST_METHOD']='GET'){
                 $id= $_GET['wID'];
                 $servername = "localhost";
@@ -73,7 +88,7 @@
                         echo "</div>";
                         echo "<div class=\"col-md-4\">";
                             echo "<div class=\"card\">";
-                                echo "<img src=\"$wImg\" style=\"width:100%;\">";
+                                echo "<img src=\"\" style=\"width:100%;\">";
                             echo "</div>";
                         echo "</div>";
                     echo "</div>";
@@ -88,7 +103,7 @@
                         echo "</div>";
                         echo "<div class=\"col-md-4\">";
                             echo "<div class=\"card\">";
-                                echo "<div class=\"card-block\">";      
+                                echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Available Mod Slots</p>";
                                         echo"<ul>";
                                             echo "<li> Skin </li>";
@@ -96,27 +111,27 @@
                                             }
                                             else{
                                                 if($wOpticssm=='T'){
-                                                    echo "<li> Optics Small </li>"; 
-                                                } 
+                                                    echo "<li> Optics Small </li>";
+                                                }
                                                 if($wOpticslg=='T'){
-                                                    echo "<li> Optics Large </li>"; 
+                                                    echo "<li> Optics Large </li>";
                                                 }
                                                 if($wUndlg=='T'){
-                                                    echo "<li> Underbarrel Large </li>"; 
+                                                    echo "<li> Underbarrel Large </li>";
                                                 }
                                                 if($wUndsm=='T'){
-                                                    echo "<li> Underbarrel Small </li>"; 
+                                                    echo "<li> Underbarrel Small </li>";
                                                 }
                                                 if($wMag=='T'){
-                                                    echo "<li> Magazine </li>"; 
+                                                    echo "<li> Magazine </li>";
                                                 }
                                                 if($wMuzsm=='T'){
-                                                    echo "<li> Muzzle Small </li>"; 
+                                                    echo "<li> Muzzle Small </li>";
                                                 }
                                                 if($wMuzlg=='T'){
-                                                    echo "<li> Muzzle Large </li>"; 
+                                                    echo "<li> Muzzle Large </li>";
                                                 }
-                                            }    
+                                            }
                                         echo "</ul>";
                                 echo "</div>";
                             echo "</div>";
@@ -141,7 +156,7 @@
                                 echo "<div class=\"card-block\">";
                                     echo "<p class=\"crd-h1\">Talents</p>";
                                     echo "<table class=\"statTbl\" border=\"1\" style='width:100%;'>";
-                                    echo "<tr style=\"font-weight: Bold;\"><td>Talent Name</td><td>Description</td>";                                    
+                                    echo "<tr style=\"font-weight: Bold;\"><td>Talent Name</td><td>Description</td>";
                                     while($row = mysqli_fetch_assoc($talz)){
                                         $nm= $row['tal_Name'];
                                         $de= $row['tal_Desc'];
@@ -150,7 +165,7 @@
                                     echo "</table>";
                                 echo "</div>";
                             echo "</div>";
-                        echo "</div>";  
+                        echo "</div>";
                     echo "</div>";
                 echo "</div>";
             }

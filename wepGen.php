@@ -1,5 +1,5 @@
 <html>
-    <head>   
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,6 +13,21 @@
         </style>
     </head>
     <body class="parallax1">
+      <?php
+      //echo "$_SESSION['previ']";
+      session_start();
+      echo $_SESSION['role'];
+      if($_SESSION['role']=="admin")
+      {
+        include 'nav.html';
+      }
+      else if($_SESSION['role']=="NULL"){
+        include 'nav1.html';
+      }
+      else {
+        header("location: login/index.php");
+      }
+       ?>
         <div class="wrapper">
             <div class="row">
                 <div class="col-md-6 col-md-offset-1">
@@ -48,7 +63,7 @@
                                     <li><l style="color: #1E88E5;">Specialized</l></li>
                                     <li><l style="color: #9C27B0;">Superior</l></li>
                                     <li><l style="color: #FFD600;">High-end</l></li>
-                                    <li><l style="color: #D32F2F;">Exotic</l></li> 
+                                    <li><l style="color: #D32F2F;">Exotic</l></li>
                                 </ul>
                         </div>
                     </div>
