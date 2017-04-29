@@ -29,10 +29,11 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
           $_SESSION['uname']=$id;
           if($row['Acc_Status']=="Admin"){
             $_SESSION['uname']="admin";
-             header("location: ../home.php");
+            echo "$_SESSION['uname']";
+            // header("location: ../home.php");
           }
           else{
-          header("location: ../home.php");  
+          header("location: ../home.php");
           }
 
         }
