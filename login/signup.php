@@ -8,7 +8,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-    $unm = mysqli_real_escape_string($conn,$_POST['unm']);
+    $unm = mysqli_real_escape_string($conn,$_POST['unm12']);
     $pass = mysqli_real_escape_string($conn,$_POST['pass1']);
     $fname = mysqli_real_escape_string($conn,$_POST['fname']);
 
