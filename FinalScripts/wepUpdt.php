@@ -22,7 +22,33 @@
 		
 		$weaponstats="UPDATE wepStats SET wep_Type='$wtyp',wep_RPM='$wrpm',wep_MgSi='$wmgsi',wep_Rng='$wrng',wep_Rld='$wrld',wep_Hsd='$whsd' where wep_ID='$wid'";
 		
+		if(mysqli_query($conn,$weaponmain))
+		{
 		header("location:..\update.php");
+		}
+		else
+		{
+			"error";
+		}
+
+		if(mysqli_query($conn,$weaponbonus))
+		{
+		header("location:..\update.php");
+		}
+		else
+		{
+			"error";
+		}
+
+		if(mysqli_query($conn,$weaponstats))
+		{
+		header("location:..\update.php");
+		}
+		else
+		{
+			"error";
+		}	
+			
 		
     }
 	
