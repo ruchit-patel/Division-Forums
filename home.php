@@ -32,12 +32,12 @@
 <body style="background-color:black;">
   <?php
   //echo "$_SESSION['previ']";
-  if($_SESSION['previ']=="admin")
+  if($_SESSION['uname']=="admin")
   {
-    include 'nav.html';
+    include 'nav1.html';
   }
   else {
-    include 'nav1.html';
+    include 'nav.html';
   }
    ?>
   <br><br>
