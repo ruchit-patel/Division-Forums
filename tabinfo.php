@@ -21,8 +21,8 @@ if (mysqli_num_rows($result) > 0) {
 
         $count++;
         if($count==1){
-        echo '<option> Weapons </option>';
-      }
+         echo '<option> Weapons </option>';
+         }
       }
         else if($row["Tables_in_division"]=="Medical" || $row["Tables_in_division"]=="Security" || $row["Tables_in_division"]=="Technical" || $row["Tables_in_division"]=="Skills" || $row["Tables_in_division"]=="Skills_Stats"){
           $cnt++;
@@ -30,6 +30,9 @@ if (mysqli_num_rows($result) > 0) {
           {
           echo '<option> Skills </option>';
           }
+        }
+        else if($row["Tables_in_division"]=="Account" || $row["Tables_in_division"]=="gearMain" || $row["Tables_in_division"]=="gearMods" || $row["Tables_in_division"]=="gearPerformMod" || $row["Tables_in_division"]=="gearSkillsMod" || $row["Tables_in_division"]=="gearTalents" || $row["Tables_in_division"]=="gear_set_tals" || $row["Tables_in_division"]=="wepMods" || $row["Tables_in_division"]=="Extra" || $row["Tables_in_division"]=="Major_Attr" ||  $row["Tables_in_division"]=="Minor_Attr"      ){
+          continue;
         }
         else{
           echo "<option> ".$row["Tables_in_division"]."</option>";
