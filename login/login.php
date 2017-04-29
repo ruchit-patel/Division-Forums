@@ -28,7 +28,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
           session_start();
           $_SESSION['uname']=$id;
           if($row['Acc_Status']=="Admin"){
-            $_SESSION['uname']="admin";
+            $_SESSION['role']="admin";
             //echo $_SESSION['uname'];
              header("location: ../home.php");
           }

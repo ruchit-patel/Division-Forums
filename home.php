@@ -32,7 +32,8 @@
 <body style="background-color:black;">
   <?php
   //echo "$_SESSION['previ']";
-  if($_SESSION['uname']=="admin")
+  session_start();
+  if($_SESSION['role']=="admin")
   {
     include 'nav.html';
   }
