@@ -16,11 +16,11 @@
 		$wbnsmin=$_POST['wbnsmin'];
 		$wbnsmax=$_POST['wbnsmax'];
 		
-        $weaponmain="UPDATE wepMain SET wep_ID='$wid',wep_Name='$wname',wep_Vars='$wvar',wep_Info='$winfo',wep_Img='$wimg',wep_Rwi='$'";
+        $weaponmain="UPDATE wepMain SET wep_Name='$wname',wep_Vars='$wvar',wep_Info='$winfo',wep_Img='$wimg',wep_Rwi='$wrw' where wep_ID='$wid'";
 		
-		$weaponbonus="UPDATE wepBns SET wep_ID='$wid',wep_Btyp='$wbnstyp',wep_Bmin='$wbnsmin',wep_Bmax='$wbnsmax'";
+		$weaponbonus="UPDATE wepBns SET wep_Btyp='$wbnstyp',wep_Bmin='$wbnsmin',wep_Bmax='$wbnsmax' where wep_ID='$wid'";
 		
-		$weaponstats="UPDATE wepStats SET wep_ID='$wid',wep_Type='$wtyp',wep_RPM='$wrpm',wep_MgSi='$wmgsi',wep_Rng='$wrng',wep_Rld='$wrld',wep_Hsd='$whsd'";
+		$weaponstats="UPDATE wepStats SET wep_Type='$wtyp',wep_RPM='$wrpm',wep_MgSi='$wmgsi',wep_Rng='$wrng',wep_Rld='$wrld',wep_Hsd='$whsd' where wep_ID='$wid'";
 		
     }
 	
