@@ -1,7 +1,7 @@
 <?php
     require 'update.php';
 ?>
-<div class="row" style="margi-top:15px;">
+<div class="row" style="margin-top:15px;">
     <div class="col-md-3">
     </div>
     <div class="col-md-6">
