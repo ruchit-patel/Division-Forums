@@ -55,7 +55,7 @@
                         $Shotgun=$row['Shotgun'];
                         $Sidearm=$row['Sidearm'];
                         echo "<br><br><form method=\"post\" action=\"FinalScripts/wepUpdt.php\"> <table style=\"width:100%;\">
-                        <tr> <td>    Wep ID: </td> <td> <input type=\"text\" name=\"wid\" value=\"$id\"><br><br> </td> </tr>
+                        <tr> <td>    Wep ID: </td> <td> <input type=\"text\" name=\"wid\" value=\"$id\" disabled><br><br> </td> </tr>
                         <tr> <td>    Name: </td> <td> <input type=\"text\" name=\"wname\"M value=\"$wName\"><br><br> </td> </tr>
                         <tr> <td>    Varients: </td> <td> <input type=\"text\" name=\"wvar\"  value=\"$wVars\"><br><br> </td> </tr>
                         <tr> <td>    Info: </td> <td> <textarea rows=\"4\" cols=\"50\" name=\"winfo\">".$wInfo."</textarea><br><br> </td> </tr>
