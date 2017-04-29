@@ -20,7 +20,7 @@ if (!$conn) {
        header("location: ../home.php");
   }
    else {
-      echo "".mysqli_error($conns);
+      echo "".mysqli_error($conn);
   }
 
   mysqli_close($conn);
