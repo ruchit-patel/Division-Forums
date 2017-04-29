@@ -17,8 +17,9 @@ if (!$conn) {
   if (mysqli_query($conn, $sql)) {
     session_start();
     $_SESSION['name']==$unm;
-       header("location: home.php");
-  } else {
+       header("location: ../home.php");
+  }
+   else {
       echo "The username already exists!";
   }
 
