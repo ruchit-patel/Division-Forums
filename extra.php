@@ -21,9 +21,9 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
      // output data of each row
      while($row = $result->fetch_assoc()) {
-        $row['wep_Img']=addcslashes($row['wep_Img'],"s");
+        $row['wep_Img']=addcslashes($row['wep_Img'],"I");
 		 echo $row['wep_Img'];
-		$query="INSERT INTO Extra('wep_Img') VALUES('$row[\'wep_Img\']')";
+		$query="INSERT INTO Extra(wep_Img) VALUES('$row[\'wep_Img\']')";
 		$result1 = $conn->query($query);	
      }
 } else {
