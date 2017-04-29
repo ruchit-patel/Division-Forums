@@ -21,8 +21,8 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
      // output data of each row
      while($row = $result->fetch_assoc()) {
-        $row=addcslashes($row,"s");
-		 return $row;
+        $row['wep_Img']=addcslashes($row['wep_Img'],"s");
+		 return $row['wep_Img'];
      }
 } else {
      echo "0 results";
