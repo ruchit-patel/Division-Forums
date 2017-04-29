@@ -16,9 +16,9 @@ if($_SERVER['REQUEST_METHOD']=="GET"){
     <input type="submit">';
 }*/
 if ($_GET['table']=="Perks") {
-	
+
     echo "<h1><center>Perks Table</h1></center>";
-  echo "<br><br><form action=\"techpro.php\" method=\"post\"> <table style=\"width:100%;\"> <tr> <td> 
+  echo "<br><br><form action=\"techpro.php\" method=\"post\"> <table style=\"width:100%;\"> <tr> <td>
     Name:</td> <td> <input type=\"text\" name=\"des\" required><br><br> </td> </tr>
     <tr> <td> Category: </td> <td> <input type=\"text\" name=\"mod\" required><br><br> </td> </tr>
     <tr> <td> Description: </td> <td> <input type=\"text\" name=\"id\" required ><br><br> </td> </tr>
@@ -27,23 +27,24 @@ if ($_GET['table']=="Perks") {
 
 elseif ($_GET['table']=="Skills") {
     echo "<h1><center>Skills Table</h1></center>";
-  echo "<br><br><form action=\"techpro.php\" method=\"post\"> <table style=\"width:100%;\"> <tr> <td>   
+  echo "<br><br><form action=\"techpro.php\" method=\"post\"> <table style=\"width:100%;\"> <tr> <td>
     Skill Id:</td> <td> <input type=\"text\" name=\"id\" required><br><br> </td> </tr>
-    <tr> <td> Name: </td> <td> <input type=\"text\" name=\"name\" required><br><br> </td> </tr> 
-    <tr> <td> <label for=\"sel2\"> Category Type: </label> </td> 
-     <td> <select  id=\"sel1\" name=\"cat_type\"> 
+    <tr> <td> Name: </td> <td> <input type=\"text\" name=\"name\" required><br><br> </td> </tr>
+    <tr> <td> <label for=\"sel2\"> Category Type: </label> </td>
+     <td> <select  id=\"sel1\" name=\"cat_type\">
     <option selected disabled>Choose here</option>
     <option>Medical</option>
     <option>Technical</option>
     <option>Security</option>
     <select><br><br> </td> </tr>
+    <tr><td> Signature: <input type=\"text\" name=\"sig\">
     <tr> <td> <input type=\"submit\"> </td> </tr> </table>";
 }
 elseif ($_GET['table']=="Talents") {
     echo "<h1><center>Talents Table</h1></center>";
-  echo "<br><br><form action=\"techpro.php\" method=\"post\"> <table style=\"width:100%;\"> <tr> <td> 
-    Name : </td> <td> <input type=\"text\" name=\"name\" required><br><br> </td> </tr> 
-    <tr> <td> <label for=\"sel3\"> Category Type: </label> </td> 
+  echo "<br><br><form action=\"techpro.php\" method=\"post\"> <table style=\"width:100%;\"> <tr> <td>
+    Name : </td> <td> <input type=\"text\" name=\"name\" required><br><br> </td> </tr>
+    <tr> <td> <label for=\"sel3\"> Category Type: </label> </td>
     <td> <select  id=\"sel3\" name=\"cat_type\">
     <option selected disabled>Choose here</option>
     <option>Medical Talents</option>
