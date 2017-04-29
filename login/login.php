@@ -29,7 +29,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
           $_SESSION['uname']=$id;
           if($row['Acc_Status']=="Admin"){
             $_SESSION['previ']="admin";
-             header("location: home.php");
+             header("location: ../home.php");
           }
 
         }
