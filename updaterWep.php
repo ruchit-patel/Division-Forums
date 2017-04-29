@@ -58,8 +58,8 @@
                         <tr> <td>    Wep ID: </td> <td> <input type=\"text\" name=\"wid\" value=\"$id\"><br><br> </td> </tr>
                         <tr> <td>    Name: </td> <td> <input type=\"text\" name=\"wname\"M value=\"$wName\"><br><br> </td> </tr>
                         <tr> <td>    Varients: </td> <td> <input type=\"text\" name=\"wvar\"  value=\"$wVars\"><br><br> </td> </tr>
-                        <tr> <td>    Info: </td> <td> <textarea rows=\"4\" cols=\"50\" name=\"winfo\"  value=\"$wInfo\"></textarea><br><br> </td> </tr>
-                        <tr> <td>    Real World: </td> <td> <textarea rows=\"4\" cols=\"50\" name=\"wrw\" value=\"$wRwi\"></textarea><br><br> </td> </tr>
+                        <tr> <td>    Info: </td> <td> <textarea rows=\"4\" cols=\"50\" name=\"winfo\">".$wInfo."</textarea><br><br> </td> </tr>
+                        <tr> <td>    Real World: </td> <td> <textarea rows=\"4\" cols=\"50\" name=\"wrw\">".$wRwi."</textarea><br><br> </td> </tr>
                         <tr> <td>    Img: </td> <td> <input type=\"text\" name=\"wimg\"  value=\"$wImg\"><br><br> </td> </tr>
                         <tr> <td>    Type: </td> <td> <input type=\"text\" name=\"wtyp\" value=\"$wType\"><br><br> </td> </tr>
                         <tr> <td>    RPM: </td> <td> <input type=\"text\" name=\"wrpm\"  value=\"$wRPM\"><br><br> </td> </tr>
