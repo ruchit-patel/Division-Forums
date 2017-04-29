@@ -22,7 +22,7 @@
 		
 		$weaponstats="UPDATE wepStats SET wep_Type='$wtyp',wep_RPM='$wrpm',wep_MgSi='$wmgsi',wep_Rng='$wrng',wep_Rld='$wrld',wep_Hsd='$whsd' where wep_ID='$wid'";
 		
-		header("location:update.php");
+		header("location:..\update.php");
 		
     }
 	
