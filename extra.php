@@ -20,15 +20,31 @@
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
 			}	
-			for($i=01;$i<12;$i++)
+			/*for($i=01;$i<12;$i++)
 			{	
-			$string="SELET wep_Img FROM Extra where wep_ID=\"WP00$i\"";
-			$char="s";
-			$attachment="\\";	
-			$newstring = str_replace($char, $char.$attachment, $string);
-			$que="UPDATE Extra set wep_Img='$newstring' where wep_ID=\"WP00$i\"";
-			echo "Hello executing $i";
-			}
+			$string="SELET wep_Img FROM Extra where wep_ID=\"WP00$i\""; */
+			//$char="s";
+			//$attachment="\\";	
+			
+			$result = mysqli_query('SELECT wep_Img FROM Extra where wep_ID=\"WP00$i\"');
+
+while ($row = mysqli_fetch_assoc($result)){
+     $rowslashes=addcslashes($row,"s"); //this will go for every result, so every row in the database
+	 echo $rowslashes;
+}
+			
+			/* $result=mysqli_query($conn,$string)
+			$row=mysqli_fetch_assoc($result);
+			$arr=array();
+			for($i=0;$i<$row.length();$i++){
+				foreach()
+			$arr[$i]=$row['wep_Img'];
+			
+			} */
+				
+			
+			
+			
 			
 ?>
 
