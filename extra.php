@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
      while($row = $result->fetch_assoc()) {
         $row['wep_Img']=addcslashes($row['wep_Img'],"I");
 		 echo $row['wep_Img'];
-		$query="INSERT INTO Extra(wep_Img) VALUES('$row[\'wep_Img\']')";
+		$query="INSERT INTO Extra(wep_Img) VALUES('wep_Img')";
 		$result1 = $conn->query($query);	
      }
 } else {
