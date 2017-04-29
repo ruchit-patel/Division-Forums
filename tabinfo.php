@@ -31,7 +31,7 @@ if (mysqli_num_rows($result) > 0) {
           echo '<option> Skills </option>';
           }
         }
-        else if($row["Tables_in_division"]=="Account" || $row["Tables_in_division"]=="gearMain" || $row["Tables_in_division"]=="gearMods" || $row["Tables_in_division"]=="gearPerformMod" || $row["Tables_in_division"]=="gearSkillsMod" || $row["Tables_in_division"]=="gearTalents" || $row["Tables_in_division"]=="gear_set_tals" || $row["Tables_in_division"]=="wepMods" || $row["Tables_in_division"]=="Extra"    ){
+        else if($row["Tables_in_division"]=="Account" || $row["Tables_in_division"]=="gearMain" || $row["Tables_in_division"]=="gearMods" || $row["Tables_in_division"]=="gearPerformMod" || $row["Tables_in_division"]=="gearSkillsMod" || $row["Tables_in_division"]=="gearTalents" || $row["Tables_in_division"]=="gear_set_tals" || $row["Tables_in_division"]=="wepMods" || $row["Tables_in_division"]=="Extra" || $row["Tables_in_division"]=="Major_Attr" ||  $row["Tables_in_division"]=="Minor_Attr"      ){
           continue;
         }
         else{
