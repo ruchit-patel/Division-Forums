@@ -12,7 +12,7 @@ if (!$conn) {
     $pass = mysqli_real_escape_string($conn,$_POST['pass1']);
     $fname = mysqli_real_escape_string($conn,$_POST['fname']);
 
-  $sql = "INSERT INTO Account (Acc_Name, Password,Full_Name) values ('$unm',SHA1('$pass'),'$fname')";
+  $sql = "INSERT INTO Account (Acc_Name, Password,Full_Name) values('$unm',SHA1('$pass'),'$fname')";
 
   if (mysqli_query($conn, $sql)) {
     session_start();
@@ -20,7 +20,7 @@ if (!$conn) {
        header("location: ../home.php");
   }
    else {
-      echo "The username already exists!";
+      echo "".mysqli_error($conns);
   }
 
   mysqli_close($conn);
