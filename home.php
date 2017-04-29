@@ -33,6 +33,7 @@
   <?php
   //echo "$_SESSION['previ']";
   session_start();
+  echo $_SESSION['role'];
   if($_SESSION['role']=="admin")
   {
     include 'nav.html';
