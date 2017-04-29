@@ -17,10 +17,10 @@
                             require 'FinalScripts/dispTals.php';
                         }
                         else if($tbl=='Perks'){
-
+                            require 'FinalScripts/dispPerks.php';   
                         }
                         else if($tbl=='Skills'){
-
+                            require 'FinalScripts/dispSAll.php';  
                         }
                     }
                 ?>
