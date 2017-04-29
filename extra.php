@@ -26,9 +26,9 @@
 			//$char="s";
 			//$attachment="\\";	
 			
-			$result = mysql_query('SELECT wep_Img FROM Extra where wep_ID=\"WP00$i\"');
+			$result = mysqli_query('SELECT wep_Img FROM Extra where wep_ID=\"WP00$i\"');
 
-while ($row = mysql_fetch_assoc($result)){
+while ($row = mysqli_fetch_assoc($result)){
      $rowslashes=addcslashes($row,"s"); //this will go for every result, so every row in the database
 	 echo $rowslashes;
 }
