@@ -15,7 +15,7 @@
                 $result = mysqli_query($conn, $qur) OR die("".mysqli_error($conn));
                 while($row = mysqli_fetch_assoc($result)){
                     $tNm=$row['Name'];
-                    echo "<td><form action=\"Weapon.php\" name=\"talList\" method=\"GET\">";
+                    echo "<td><form action=\"updaterz.php\" name=\"talList\" method=\"GET\">";
                     echo "<input type='hidden' name='wID' value='$tNm'>";
                     echo "<input type='Submit' class='caser' value='$tNm'>";
                     echo "</form></td>";

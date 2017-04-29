@@ -16,7 +16,7 @@
                 while($row = mysqli_fetch_assoc($result)){
                     $wName=$row['wep_Name'];
                     $wId=$row['wep_ID'];
-                    echo "<td><form action=\"Weapon.php\" name=\"WepType\" method=\"GET\">";
+                    echo "<td><form action=\"updaterWep.php\" name=\"WepType\" method=\"GET\">";
                     echo "<input type='hidden' name='wID' value='$wId'>";
                     echo "<input type='Submit' class='caser' value='$wName'>";
                     echo "</form></td>";

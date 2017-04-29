@@ -17,7 +17,7 @@
                     $skill_id=$row['Skill_id'];
                     $name=$row['Name'];
                     $sig=$row['Signature'];
-                    echo "<td><form action='skills_PHP.php' method='GET'>";
+                    echo "<td><form action='updaterz.php' method='GET'>";
                     echo "<input type='hidden' name='skill_id' value='$skill_id'>";
 					echo "<input type='hidden' name='category_type' value='Medical Skills'>";
                     echo "<input type='hidden' name='Sig' value='$sig'>";

@@ -2,9 +2,9 @@
     require 'update.php';
 ?>
 <div class="row" style="margin-top:15px;">
-    <div class="col-md-3">
+    <div class="col-md-2">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-8">
         <div class="card">
             <div class="card-block">
                 <?php
@@ -13,7 +13,7 @@
                         $tbl=$_GET['table'];
                         if($tbl=='Weapons'){
                             require 'FinalScripts/dispAll.php';
-                        }
+                        }   
                         else if($tbl=='Talents'){
                             require 'FinalScripts/dispTals.php';
                         }
