@@ -28,7 +28,7 @@
 		}
 		else
 		{
-			"error";
+			"error".mysqli_error($conn);
 		}
 
 		if(mysqli_query($conn,$weaponbonus))
@@ -37,7 +37,7 @@
 		}
 		else
 		{
-			"error";
+			echo "error".mysqli_error($conn);
 		}
 
 		if(mysqli_query($conn,$weaponstats))
@@ -46,7 +46,7 @@
 		}
 		else
 		{
-			"error";
+			echo "error".mysqli_error($conn);
 		}	
 			
 		
