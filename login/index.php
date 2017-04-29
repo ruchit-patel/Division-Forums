@@ -26,9 +26,6 @@
   else if($_SESSION['role']=="NULL"){
     include 'nav1.html';
   }
-  else {
-    header("location: index.php");
-  }
    ?>
 <br><br><br><br>
 <div class="container">
