@@ -9,13 +9,13 @@ include 'select.php';
         <div class="card-block">
 <?php
 if($_SERVER['REQUEST_METHOD']=="GET"){
-if ($_GET['table']=="News") {
+/*if ($_GET['table']=="News") {
   echo "<h1><center>News Table</h1></center>";
   echo '<br><br><form action="techpro.php" method="post">
     News Content :<br> <textarea name="comment" rows="5" cols="40"></textarea><br><br>
     <input type="submit">';
-}
-elseif ($_GET['table']=="Perks") {
+}*/
+if ($_GET['table']=="Perks") {
     echo "<h1><center>Perks Table</h1></center>";
   echo '<br><br><form action="techpro.php" method="post">
     Name: <input type="text" name="des" required><br><br>
@@ -83,7 +83,7 @@ elseif ($_GET['table']=="Weapons") {
 
 
   ?>
-</form></div></div></div>
+</div></div></div>
   <div class="col-md-3"></div>
 </div>
 
